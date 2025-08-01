@@ -1,0 +1,183 @@
+name: Unified Workflow - All Scripts Sequential
+
+on:
+  schedule:
+    - cron: "0 7,9,10,12,14,16 * * *"  # 07:30 UTC orario unificato
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  pull-requests: write
+
+jobs:
+  unified-sequential:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # ===== SETUP INIZIALE =====
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # ===== INSTALLAZIONE DIPENDENZE COMPLETE =====
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Dipendenze base per tutti gli script
+          python -m pip install requests pytz beautifulsoup4 bs4 lxml rapidfuzz fuzzywuzzy python-Levenshtein python-dateutil python-dotenv chardet aiohttp
+          
+          # Dipendenze specifiche per sportzone (Chrome + Selenium)
+          pip install cloudscraper urllib3 selenium webdriver-manager
+          
+          # Dipendenze per playwright (itaevents)
+          pip install playwright pillow
+          python -m playwright install --with-deps chromium
+
+      # Installazione Google Chrome per SportZone
+      - name: Install Google Chrome for SportZone
+        run: |
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      # ===== PULIZIA INIZIALE =====
+      - name: Clean existing JSON files
+        run: |
+          rm -f daddyliveSchedule.json
+          rm -f 247channels.html
+         
+      # STEP 1: Update 247VVDD (PRIMO)
+      - name: "STEP 1: Clean old 247 files"
+        env:
+          M3U4U_EPG: ${{ secrets.M3U4U_EPG }}
+        run: |
+          echo "=== STEP 1: Starting 247VVDD update ==="
+          rm -f 247ita.m3u8
+
+      - name: "STEP 1: Run 247VVDD scripts"
+        run: |
+          python vavoo.py
+          python 247ita.py
+          echo "=== STEP 1: 247VVDD completed ==="
+
+      # STEP 2: Update Hat
+      - name: "STEP 2: Clean JSON files for Hat"
+        run: |
+          echo "=== STEP 2: Starting Hat update ==="
+          rm -f daddyliveSchedule.json
+          echo "File JSON eliminati per garantire dati freschi"
+
+      - name: "STEP 2: Run Hat script"
+        run: |
+          python hat.py
+          echo "=== STEP 2: Hat completed ==="
+
+      # STEP 3: Update SkyStreaming
+      - name: "STEP 3: Clean JSON files for SkyStreaming"
+        run: |
+          echo "=== STEP 3: Starting SkyStreaming update ==="
+          rm -f daddyliveSchedule.json
+
+      - name: "STEP 3: Run SkyStreaming script"
+        run: |
+          python skystreaming.py
+          echo "=== STEP 3: SkyStreaming completed ==="
+
+      # STEP 4: Update ThisNot
+      - name: "STEP 4: Clean JSON files for ThisNot"
+        run: |
+          echo "=== STEP 4: Starting ThisNot update ==="
+          rm -f daddyliveSchedule.json
+
+      - name: "STEP 4: Run ThisNot script"
+        run: |
+          python thisnot.py
+          echo "=== STEP 4: ThisNot completed ==="
+
+      # STEP 5: Update SportZone
+      - name: "STEP 5: Run SportZone script"
+        run: |
+          echo "=== STEP 5: Starting SportZone update ==="
+          python sportzone.py
+          echo "=== STEP 5: SportZone completed ==="
+
+      # STEP 6: Update SportStreaming
+      - name: "STEP 6: Run SportStreaming script"
+        run: |
+          echo "=== STEP 6: Starting SportStreaming update ==="
+          python sportstreaming.py
+          echo "=== STEP 6: SportStreaming completed ==="
+
+      # STEP 7: Update Calcio
+      - name: "STEP 7: Run Calcio script"
+        run: |
+          echo "=== STEP 7: Starting Calcio update ==="
+          python calcio.py
+          python mpdenv.py
+          echo "=== STEP 7: Calcio completed ==="
+
+      # STEP 8: Update Itaevents (ULTIMO)
+      - name: "STEP 8: Clean JSON files for Itaevents"
+        run: |
+          echo "=== STEP 8: Starting Itaevents update (FINAL) ==="
+          rm -f daddyliveSchedule.json
+          echo "File JSON eliminati per garantire dati freschi"
+
+      - name: "STEP 8: Run extract schedule"
+        run: |
+          python extract_schedule.py
+
+      - name: "STEP 8: Run daddy ita e fullita"
+        run: |
+          python itaevents.py
+          
+      - name: "STEP 8bis: Run daddy ita e fullita"
+        run: |
+          python itapigz.py
+
+      - name: "STEP 8: Run mergelists"
+        run: |
+          python mergelists.py channels_italy.m3u8 247ita.m3u8 mpd.m3u8 calcio_playlist.m3u8 sportstreaming_playlist.m3u8 sportzone.m3u8 hat.m3u8 this.m3u8 skystreaming.m3u8 itaevents.m3u8 itapigz.m3u8
+
+      - name: "STEP 8: Run epg"
+        run: |
+          python epg.py
+          echo "=== STEP 8: Itaevents completed ==="
+
+      # Commit finale
+      - name: "FINAL: Commit and push all changes"
+        run: |
+          echo "=== FINAL: Committing all changes ==="
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Ignore Python bytecode files to avoid binary conflicts
+          echo "__pycache__/" >> .gitignore
+          echo "*.pyc" >> .gitignore
+          
+          # Stage all changes
+          git add .
+          
+          # Check if there are changes to commit
+          if [[ -n $(git status --porcelain) ]]; then
+            # Commit changes
+            git commit -m "Unified Update: All workflows completed sequentially $(date +%H:%M)"
+            
+            # Pull latest changes with rebase to avoid merge conflicts
+            git pull --rebase origin main
+            
+            # Push changes
+            git push
+            echo "=== FINAL: Changes pushed successfully ==="
+          else
+            echo "=== FINAL: No changes to commit ==="
+          fi

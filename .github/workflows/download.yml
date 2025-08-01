@@ -1,0 +1,82 @@
+name: download
+
+on:
+  schedule:
+    - cron: "56 6,8,9,11,13 * * *"  # Orario unificato
+  workflow_dispatch:
+
+jobs:
+  download_all_from_pi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install jq (for parsing JSON)
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Download files
+        env:
+          PI_LIST_URL: ${{ secrets.BASE_URL }}/list-files 
+          PI_TOKEN: ${{ secrets.AUTH_TOKEN }}
+        run: |
+          echo "Tentativo di ottenere l'elenco dei file da: $PI_LIST_URL"
+          
+          # Scarica l'elenco dei file (JSON)
+          # Assicurati che anche /list-files richieda il token se necessario
+          file_list_json=$(curl -LfsS -H "X-Auth-Token: $PI_TOKEN" "$PI_LIST_URL")
+          
+          if [ -z "$file_list_json" ]; then
+            echo "Errore: l'elenco dei file è vuoto o non è stato possibile recuperarlo."
+            exit 1
+          fi
+          
+          echo "Elenco file JSON ricevuto:"
+          #echo "$file_list_json"
+          echo "File da scaricare (dall'elenco JSON):"
+          echo "$file_list_json" | jq -r '.[] | .filename'
+          
+          # Crea una directory per i file scaricati
+          mkdir -p download
+          
+          # Itera sull'elenco dei file e scarica ciascuno
+          # jq -r '.[] | .filename' estrae i nomi dei file
+          # jq -r '.[] | .url' estrae gli URL di download
+          echo "$file_list_json" | jq -r '.[] | @base64' | while read -r i; do
+            _jq() {
+              echo "${i}" | base64 --decode | jq -r "${1}"
+            }
+            
+            filename=$(_jq '.filename')
+            download_url=$(_jq '.url') # Usa l'URL fornito dal server Flask
+            
+            echo "Tentativo di download del file '$filename'..." # Modificato per non stampare l'URL completo
+            curl -LfsS -H "X-Auth-Token: $PI_TOKEN" -o "download/$filename" "$download_url"
+            
+            if [ $? -eq 0 ]; then
+              echo "File '$filename' scaricato con successo."
+            else
+              echo "Errore durante il download del file '$filename'. Codice di uscita: $?"
+              # Potresti decidere se uscire con errore o continuare con gli altri file
+            fi
+          done
+          
+          echo "Processo di download completato. Contenuto della cartella:"
+          ls -l download
+      - name: Commit and push files
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Controlla se ci sono file nella cartella download prima di procedere
+          if [ -n "$(ls -A download)" ]; then
+            git add download/*
+            # Controlla se ci sono modifiche da committare
+            if ! git diff --staged --quiet; then
+              git commit -m "Add/Update downloaded RBTv77 pages"
+              git push
+            else
+              echo "Nessuna modifica ai file scaricati da committare."
+            fi
+          else
+            echo "La cartella 'download' è vuota. Nessun file da committare."
+          fi
