@@ -1,4 +1,79 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="2025 PDRA Northern Nationals - 2025 PDRA Northern Nationals" tvg-name="15:00 2025 PDRA Northern Nationals - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-171.php
+
+#EXTINF:-1 tvg-id="SuperBikes Motoamerica Virginia - SuperBikes Motoamerica Virginia" tvg-name="18:00 SuperBikes Motoamerica Virginia - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Event PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-172.php
+
+#EXTINF:-1 tvg-id="Memphis Wrestling, Episode 232 - Justin Credible gets Extreme - Memphis Wrestling, Episode 232 - Justin Credible gets Extreme" tvg-name="18:00 Memphis Wrestling, Episode 232 - Justin Credible gets Extreme - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Triller Tv
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-173.php
+
+#EXTINF:-1 tvg-id="GCW - Josh Barnett's Bloodsport XIV" tvg-name="19:00 GCW: Josh Barnett's Bloodsport XIV - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Triller Tv
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-174.php
+
+#EXTINF:-1 tvg-id="True Grit Wrestling - Wrestlefest 2025" tvg-name="20:00 True Grit Wrestling: Wrestlefest 2025 - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Triller Tv
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-1750.php
+
+#EXTINF:-1 tvg-id="Rage Kombat - Inferno" tvg-name="20:00 Rage Kombat: Inferno - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Triller Tv
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-176.php
+
+#EXTINF:-1 tvg-id="2025 NASCAR Modified Bubba 150 at Riverhead Raceway - 2025 NASCAR Modified Bubba 150 at Riverhead Raceway" tvg-name="23:00 2025 NASCAR Modified Bubba 150 at Riverhead Raceway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-177.php
+
+#EXTINF:-1 tvg-id="2025 Supermodified Twin 40's at Oswego Speedway - 2025 Supermodified Twin 40's at Oswego Speedway" tvg-name="23:15 2025 Supermodified Twin 40's at Oswego Speedway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-178.php
+
+#EXTINF:-1 tvg-id="500 Sprint Car Tour Owosso - 500 Sprint Car Tour Owosso" tvg-name="23:45 500 Sprint Car Tour Owosso - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Event PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-179.php
+
+#EXTINF:-1 tvg-id="2025 Weekly Racing at Port Royal Speedway - 2025 Weekly Racing at Port Royal Speedway" tvg-name="00:00 2025 Weekly Racing at Port Royal Speedway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-180.php
+
+#EXTINF:-1 tvg-id="2025 NASCAR Weekly Racing at Berlin Raceway - 2025 NASCAR Weekly Racing at Berlin Raceway" tvg-name="00:00 2025 NASCAR Weekly Racing at Berlin Raceway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-181.php
+
+#EXTINF:-1 tvg-id="2025 Weekly Racing at Fonda Speedway - 2025 Weekly Racing at Fonda Speedway" tvg-name="00:00 2025 Weekly Racing at Fonda Speedway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-157.php
+
+#EXTINF:-1 tvg-id="Land of Legends Late Models - Land of Legends Late Models" tvg-name="00:15 Land of Legends Late Models - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Event PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-158.php
+
+#EXTINF:-1 tvg-id="2025 NASCAR Weekly Racing at Jennerstown Speedway - 2025 NASCAR Weekly Racing at Jennerstown Speedway" tvg-name="00:20 2025 NASCAR Weekly Racing at Jennerstown Speedway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-159.php
+
+#EXTINF:-1 tvg-id="Sharon Speedway Sprint Cars - Sharon Speedway Sprint Cars" tvg-name="00:30 Sharon Speedway Sprint Cars - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Event PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-160.php
+
+#EXTINF:-1 tvg-id="2025 Family Fireworks Night at Eldora Speedway - 2025 Family Fireworks Night at Eldora Speedway" tvg-name="00:30 2025 Family Fireworks Night at Eldora Speedway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-161.php
+
+#EXTINF:-1 tvg-id="2025 USAC Indiana Sprint Week at Tri-State Speedway - 2025 USAC Indiana Sprint Week at Tri-State Speedway" tvg-name="00:45 2025 USAC Indiana Sprint Week at Tri-State Speedway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-162.php
+
+#EXTINF:-1 tvg-id="2025 IMCA Weekly Racing at 141 Speedway - 2025 IMCA Weekly Racing at 141 Speedway" tvg-name="01:00 2025 IMCA Weekly Racing at 141 Speedway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Floracing
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-163.php
+
+#EXTINF:-1 tvg-id="Dirtvision - Knoxville Raceway" tvg-name="01:00 Dirtvision : Knoxville Raceway - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Dirtvision
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-164.php
+
+#EXTINF:-1 tvg-id="Dead & Compnay 60 Years Of The Grateful Dead Concert PPV - Dead & Compnay 60 Years Of The Grateful Dead Concert PPV" tvg-name="01:00 Dead & Compnay 60 Years Of The Grateful Dead Concert PPV - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Event PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-165.php
+
+#EXTINF:-1 tvg-id="World of Outlaws Late Models - World of Outlaws Late Models" tvg-name="01:15 World of Outlaws Late Models - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Event PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-166.php
+
+#EXTINF:-1 tvg-id="World of Outlaws Sprint Cars - World of Outlaws Sprint Cars" tvg-name="01:15 World of Outlaws Sprint Cars - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Event PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-167.php
+
+#EXTINF:-1 tvg-id="Dirtvision - I-55 Federated Auto Parts Raceway Park" tvg-name="01:15 Dirtvision : I-55 Federated Auto Parts Raceway Park - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Dirtvision
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-168.php
+
+#EXTINF:-1 tvg-id="Lariato Pro Wrestling, Episode 1 - Lariato Pro Wrestling, Episode 1" tvg-name="02:00 Lariato Pro Wrestling, Episode 1 - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Triller Tv
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-169.php
+
+#EXTINF:-1 tvg-id="GCW - Emo Fight 2025" tvg-name="05:00 GCW: Emo Fight 2025 - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Ppv Events", Triller Tv
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-170.php
+
 #EXTINF:-1 tvg-id="England - League One - Blackpool vs Stevenage" tvg-name="16:00 England - League One : Blackpool vs Stevenage - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sports+
 linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-151.php
 
@@ -1537,6 +1612,12 @@ linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-146.php
 
 #EXTINF:-1 tvg-id="WWE SummerSlam Saturday 2025 - WWE SummerSlam Saturday 2025" tvg-name="00:00 WWE SummerSlam Saturday 2025 - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wwe", WWE PPV
 linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-76.php
+
+#EXTINF:-1 tvg-id="WWE SummerSlam Saturday 2025 - WWE SummerSlam Saturday 2025" tvg-name="00:00 WWE SummerSlam Saturday 2025 - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wwe", WWE PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-155.php
+
+#EXTINF:-1 tvg-id="WWE SummerSlam Saturday 2025 - WWE SummerSlam Saturday 2025" tvg-name="00:00 WWE SummerSlam Saturday 2025 - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wwe", WWE PPV
+linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-145.php
 
 #EXTINF:-1 tvg-id="WTT Star Contender '25 D3 - QFs" tvg-name="22:00 WTT Star Contender '25 D3: QFs - 02/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Table Tennis", SuperSport Variety 3
 linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-418.php

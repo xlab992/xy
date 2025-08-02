@@ -4,7 +4,7 @@
     "info": {
       "category": "CALCIO",
       "title": "2.BUNDESLIGA - GERMANIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "20:30 Cagliari - Saint-Etienne",
       "channel": "Dazn",
       "language": "pl",
@@ -16,7 +16,7 @@
     "info": {
       "category": "CALCIO",
       "title": "2.BUNDESLIGA - GERMANIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "19:00 Twente - Udinese",
       "channel": "ESPN",
       "language": "it",
@@ -28,11 +28,35 @@
     "info": {
       "category": "CALCIO",
       "title": "2.BUNDESLIGA - GERMANIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "20:00 Galatasaray - Lazio",
       "channel": "Polsat",
       "language": "nl",
       "url": "https://thisnot.business/player.php?id=PolsatSP2"
+    }
+  },
+  "https://thisnot.business/player.php?id=ArenaSP1_ME": {
+    "proxy_url": "https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://bpkcdn.telekom.me/bpk-tv/arena_premium_1/default/index.mpd&key_id=ddf7a6d83eb05ab48a757b638244af57&key=720eb820e035ebe9f9a84e9f258282a1,96a46b5f1627549db9632ae1172ea62d:feb9eb6327915c1547ad17c2461b9f66,7815e3024bf55d5296ece7d188442baa:4178f0a0b6eed010845a6342a0831f79",
+    "info": {
+      "category": "CALCIO",
+      "title": "2.BUNDESLIGA - GERMANIA",
+      "date": "SABATO 2 AGOSTO",
+      "event": "23:00 Manchester United - Everton",
+      "channel": "Arena Sport",
+      "language": "rs",
+      "url": "https://thisnot.business/player.php?id=ArenaSP1_ME"
+    }
+  },
+  "https://thisnot.business/player.php?id=ArenaSP2_ME": {
+    "proxy_url": "https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://bpkcdn.telekom.me/bpk-tv/arena_premium_2/default/index.mpd&key_id=50e2b92181a35cd9a603bf398660e5c7&key=0779f9325ccbb29b5926793236a1537d,dc5ff1824cd650569eb2252dce236b67:55e89387b90d67f0fe7b8f7845c3b9e6,39a06f8583d25d1dbf62a4cee3170342:5976017af75ba543275891b960e403ab",
+    "info": {
+      "category": "CALCIO",
+      "title": "2.BUNDESLIGA - GERMANIA",
+      "date": "SABATO 2 AGOSTO",
+      "event": "20:00 Bournemouth - West Ham",
+      "channel": "Arena Sport",
+      "language": "rs",
+      "url": "https://thisnot.business/player.php?id=ArenaSP2_ME"
     }
   },
   "https://thisnot.business/player.php?id=Bundesliga1": {
@@ -40,7 +64,7 @@
     "info": {
       "category": "CALCIO",
       "title": "2.BUNDESLIGA - GERMANIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "13:30 Konferenz",
       "channel": "Sky Sport Bundesliga",
       "language": "de",
@@ -52,7 +76,7 @@
     "info": {
       "category": "CALCIO",
       "title": "2.BUNDESLIGA - GERMANIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "13:30 Greuther Furth - Dynamo Dresden",
       "channel": "Sky Sport Bundesliga",
       "language": "de",
@@ -64,7 +88,7 @@
     "info": {
       "category": "CALCIO",
       "title": "2.BUNDESLIGA - GERMANIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "13:30 Hannover 96 - Kaiserslautern",
       "channel": "Sky Sport Bundesliga",
       "language": "de",
@@ -76,7 +100,7 @@
     "info": {
       "category": "CALCIO",
       "title": "2.BUNDESLIGA - GERMANIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "13:30 Magdeburg - Eintracht Braunschweig",
       "channel": "Sky Sport Bundesliga",
       "language": "de",
@@ -88,7 +112,7 @@
     "info": {
       "category": "CALCIO",
       "title": "2.BUNDESLIGA - GERMANIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "13:00 Paderborn - Holstein Kiel",
       "channel": "Sky Sport Bundesliga",
       "language": "de",
@@ -124,7 +148,7 @@
     "info": {
       "category": "FORMULA 1",
       "title": "GP D'UNGHERIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "15:00 Gara",
       "channel": "Sky Sport",
       "language": "it",
@@ -136,7 +160,7 @@
     "info": {
       "category": "FORMULA 1",
       "title": "GP D'UNGHERIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "15:00 Gara",
       "channel": "RTL",
       "language": "de",
@@ -148,7 +172,7 @@
     "info": {
       "category": "FORMULA 1",
       "title": "GP D'UNGHERIA",
-      "date": "VENERDI 1 AGOSTO",
+      "date": "SABATO 2 AGOSTO",
       "event": "15:00 Gara",
       "channel": "RSI",
       "language": "it",
