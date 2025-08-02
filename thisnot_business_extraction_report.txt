@@ -13,9 +13,9 @@ Pagina Evento: https://thisnot.business/player.php?id=ESPN1_NL
   Dettagli: Categoria='CALCIO', Evento='19:00 Twente - Udinese', Canale='ESPN'
   Stato Estrazione: OK - Proxy generato: https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://bpm.tv.delta.nl/live/3036/3036_live.isml/playlist.mpd%3Fbk-network%3Dftth-mobile%26ck%3DM2Y4MTg4ZWE5MTA3MDU5M2U3ODkzY2ViYTFlOTYyOTY6MDg1YTJhMTYwMWRlMjNkODI5ZDU5ZTIxNThhODIxZGY%3D&key_id=3f8188ea91070593e7893ceba1e96296&key=085a2a1601de23d829d59e2158a821df
 
-Pagina Evento: https://thisnot.business/player.php?id=PolsatSP2
+Pagina Evento: https://thisnot.business/player.php?id=PolsatSP3
   Dettagli: Categoria='CALCIO', Evento='20:00 Galatasaray - Lazio', Canale='Polsat'
-  Stato Estrazione: OK - Proxy generato: https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://cdn-s-lb2.pluscdn.pl/ch/1455745/96/dash/3880d03f/live.mpd&key_id=3201accccbe9455cbc28dcd4bcdf1509&key=f4d9a50f98ea833d2e5120d83bd59a23
+  Stato Estrazione: OK - Proxy generato: https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://cdn-s-lb2.pluscdn.pl/ch/1455832/117/dash/790ff37c/live.mpd&key_id=03ddf71c8dae4e8d8b171fb81ecfe609&key=fc80cf8969cf1b3c2c061eadb94e1330
 
 Pagina Evento: https://thisnot.business/player.php?id=Dazn1amazon
   Dettagli: Categoria='CALCIO', Evento='20:30 Cagliari - Saint-Etienne', Canale='Dazn'
@@ -85,9 +85,9 @@ Pagina Evento: https://thisnot.business/player.php?id=ESPN1_NL
   Dettagli: Categoria='CALCIO', Evento='19:00 Twente - Udinese', Canale='ESPN'
   Stato Estrazione: OK - Proxy generato: https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://bpm.tv.delta.nl/live/3036/3036_live.isml/playlist.mpd%3Fbk-network%3Dftth-mobile%26ck%3DM2Y4MTg4ZWE5MTA3MDU5M2U3ODkzY2ViYTFlOTYyOTY6MDg1YTJhMTYwMWRlMjNkODI5ZDU5ZTIxNThhODIxZGY%3D&key_id=3f8188ea91070593e7893ceba1e96296&key=085a2a1601de23d829d59e2158a821df
 
-Pagina Evento: https://thisnot.business/player.php?id=PolsatSP2
+Pagina Evento: https://thisnot.business/player.php?id=PolsatSP3
   Dettagli: Categoria='CALCIO', Evento='20:00 Galatasaray - Lazio', Canale='Polsat'
-  Stato Estrazione: OK - Proxy generato: https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://cdn-s-lb2.pluscdn.pl/ch/1455745/96/dash/3880d03f/live.mpd&key_id=3201accccbe9455cbc28dcd4bcdf1509&key=f4d9a50f98ea833d2e5120d83bd59a23
+  Stato Estrazione: OK - Proxy generato: https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://cdn-s-lb2.pluscdn.pl/ch/1455832/117/dash/790ff37c/live.mpd&key_id=03ddf71c8dae4e8d8b171fb81ecfe609&key=fc80cf8969cf1b3c2c061eadb94e1330
 
 Pagina Evento: https://thisnot.business/player.php?id=Dazn1amazon
   Dettagli: Categoria='CALCIO', Evento='20:30 Cagliari - Saint-Etienne', Canale='Dazn'

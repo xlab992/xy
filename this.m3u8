@@ -6,8 +6,8 @@ https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://abe6fjxaaaaa
 #EXTINF:-1 tvg-id="ESPN1_NL" tvg-name="2.BUNDESLIGA - GERMANIA SABATO 2 AGOSTO 19:00 Twente - Udinese" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", ESPN (TN)
 https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://bpm.tv.delta.nl/live/3036/3036_live.isml/playlist.mpd%3Fbk-network%3Dftth-mobile%26ck%3DM2Y4MTg4ZWE5MTA3MDU5M2U3ODkzY2ViYTFlOTYyOTY6MDg1YTJhMTYwMWRlMjNkODI5ZDU5ZTIxNThhODIxZGY%3D&key_id=3f8188ea91070593e7893ceba1e96296&key=085a2a1601de23d829d59e2158a821df
 
-#EXTINF:-1 tvg-id="PolsatSP2" tvg-name="2.BUNDESLIGA - GERMANIA SABATO 2 AGOSTO 20:00 Galatasaray - Lazio" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Polsat (TN)
-https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://cdn-s-lb2.pluscdn.pl/ch/1455745/96/dash/3880d03f/live.mpd&key_id=3201accccbe9455cbc28dcd4bcdf1509&key=f4d9a50f98ea833d2e5120d83bd59a23
+#EXTINF:-1 tvg-id="PolsatSP3" tvg-name="2.BUNDESLIGA - GERMANIA SABATO 2 AGOSTO 20:00 Galatasaray - Lazio" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Polsat (TN)
+https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://cdn-s-lb2.pluscdn.pl/ch/1455832/117/dash/790ff37c/live.mpd&key_id=03ddf71c8dae4e8d8b171fb81ecfe609&key=fc80cf8969cf1b3c2c061eadb94e1330
 
 #EXTINF:-1 tvg-id="ArenaSP1_ME" tvg-name="2.BUNDESLIGA - GERMANIA SABATO 2 AGOSTO 23:00 Manchester United - Everton" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Arena Sport (TN)
 https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://bpkcdn.telekom.me/bpk-tv/arena_premium_1/default/index.mpd&key_id=ddf7a6d83eb05ab48a757b638244af57&key=720eb820e035ebe9f9a84e9f258282a1,96a46b5f1627549db9632ae1172ea62d:feb9eb6327915c1547ad17c2461b9f66,7815e3024bf55d5296ece7d188442baa:4178f0a0b6eed010845a6342a0831f79
