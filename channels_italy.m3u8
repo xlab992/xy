@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://git.pizzapi.uk/nomegit/nomerepo/raw/branch/main/epg.xml"
+#EXTM3U url-tvg="https://nomegit/nomegit/nomerepo/raw/branch/main/epg.xml"
 
 #EXTINF:-1 tvg-id="20mediasethd.it" tvg-name="20 Mediaset" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="Intrattenimento;Mediaset",20 MEDIASET (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/12303381856673f2a33deb&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
