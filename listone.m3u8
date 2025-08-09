@@ -63,9 +63,6 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/365827745096a99
 #EXTINF:-1 tvg-id="comedycentral.it" tvg-name="Comedy Central (2)" tvg-logo="" group-title="Sky",COMEDY CENTRAL (V) (2)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/433893159bf516cde9a97&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="crime+investigation.it" tvg-name="Crime+ Investigation" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" group-title="Discovery",CRIME+ INVESTIGATION (V)
-linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/30052277008e849440ee94&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="dazn.it" tvg-name="Dazn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DAZN_logo.svg/1024px-DAZN_logo.svg.png" group-title="Sport",DAZN (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/2745635299ab0cc043a143&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -153,9 +150,6 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/42489970292d293
 #EXTINF:-1 tvg-id="history.it" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari;Sky",HISTORY (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/3178376547e2dcc234152&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="history.it" tvg-name="History (2)" tvg-logo="" group-title="Documentari;Sky",HISTORY (V) (2)
-linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/2134724757fd92e3286ea6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="iris.it" tvg-name="Iris" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",IRIS (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/576490047036ac0227958&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -197,9 +191,6 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/4774665319f73c3
 
 #EXTINF:-1 tvg-id="mediasetinfinity+1.it" tvg-name="Mediaset Infinity+ 1" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Intrattenimento;Mediaset",MEDIASET INFINITY+ 1 (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/3599959739ed5ed2f1f0cd&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="mediasetinfinity+2.it" tvg-name="Mediaset Infinity+ 2" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Intrattenimento;Mediaset",MEDIASET INFINITY+ 2 (V)
-linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/2436070507988d651c6548&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="mediasetinfinity+5.it" tvg-name="Mediaset Infinity+ 5" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Intrattenimento;Mediaset",MEDIASET INFINITY+ 5 (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/588488827b855babc9df4&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -330,9 +321,6 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/30648111922089e
 #EXTINF:-1 tvg-id="rakutencomedymovies.it" tvg-name="Rakuten Comedy Movies" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film;Rakuten",RAKUTEN COMEDY MOVIES (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/11093727783b90d83934c6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="rakutendrama.it" tvg-name="Rakuten Drama" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Rakuten",RAKUTEN DRAMA (V)
-linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/209862439074120bb15132&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="rakutenfamily.it" tvg-name="Rakuten Family" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Rakuten",RAKUTEN FAMILY (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/3902650955a82543dc27a4&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -396,6 +384,9 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/500203271d58941
 #EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="Sky Cinema Comedy (2)" tvg-logo="" group-title="Film;Sky",SKY CINEMA COMEDY (V) (2)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/3131104474771735b548ce&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
+#EXTINF:-1 tvg-id="skycinemadrama.it" tvg-name="Sky Cinema Drama" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Film;Sky",SKY CINEMA DRAMA (V)
+linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/123553017707540030adf9&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
 #EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="Sky Cinema Due" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Film;Sky",SKY CINEMA DUE (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/1228534500ffff855fff55&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -458,6 +449,9 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/18766170987dd5e
 
 #EXTINF:-1 tvg-id="skyprimafila15.it" tvg-name="Sky Primafila 15" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 15 (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/911168573d54b185731b5&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="skyprimafila16.it" tvg-name="Sky Primafila 16" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 16 (V)
+linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/191150052585174f4ea582&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skyprimafila17.it" tvg-name="Sky Primafila 17" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 17 (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/1284441949890c3c5c3d9d&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -534,6 +528,21 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/25559607139e6fd
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/1665920101d5db640ce7e6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio (2)" tvg-logo="" group-title="Sport",SKY SPORT CALCIO (V) (2)
+linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/449990998077a7691828f&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="skysportf1.it" tvg-name="Sky Sport F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sport",SKY SPORT F1 (V)
+linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/42467740561588897497f2&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="skysportfootball.it" tvg-name="Sky Sport Football" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL (V)
+linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/309353533094c3ad269514&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="skysportfootball.it" tvg-name="Sky Sport Football [live During Events Only]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY] (V)
+linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/198930923100c09085a1ae&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="Sky Sport Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sport",SKY SPORT GOLF (V)
+linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/3897711086f5655aa4d5fb&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
 #EXTINF:-1 tvg-id="skysportmax.it" tvg-name="Sky Sport Max" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sport",SKY SPORT MAX (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/206632691678b853b73adb&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -548,9 +557,6 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/271195962000118
 
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-name="Sky Sport Nba (2)" tvg-logo="" group-title="Sport",SKY SPORT NBA (V) (2)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/3268253262aec282eb346&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="skysportseriea.it" tvg-name="Sky Sport Serie A" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sport",SKY SPORT SERIE A (V)
-linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/2077387085cfe0f64122dc&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SPORT TENNIS (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/210077178262e76f204fa6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -635,6 +641,9 @@ linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/3171202588cf85e
 
 #EXTINF:-1 tvg-id="wwechannel.it" tvg-name="Wwe Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8c/WWE_Network_logo.jpeg" group-title="Discovery",WWE CHANNEL (V)
 linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/2989824407cb0184041b08&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="zonadazn.it" tvg-name="Zona Dazn" tvg-logo="https://www.digital-news.it/img/palinsesti/2023/12/1701423631-zona-dazn.webp" group-title="Sport",ZONA DAZN (V)
+linkproxy tvproxy/proxy/m3u?url=https://vavoo.to/vavoo-iptv/play/291117845637cc65891f64&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="eurosport1.it" tvg-name="EuroSport 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport", EuroSport 1  (D)
 linkproxy tvproxy/proxy/m3u?url=https://daddylive.dad/stream/stream-878.php
@@ -1791,8 +1800,23 @@ https://hls.kangal.icu/hls/skynba/index.m3u8&h_user-agent=Mozilla%2F5.0+%28iPhon
 https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https%3A//abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd&key_id=8272bf6ba46f23f9da5270057b6e028a&key=74ae70dd10b4bb38ed6ffe843f3e2ccd
 
 # Playlist generata da ThisNotBusiness
-#EXTINF:-1 tvg-id="DaznFIO" tvg-name="FA CUP COMMUNITY SHIELD - INGHILTERRA DOMENICA 10 AGOSTO 13:45 Manchester United - Fiorentina" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Dazn (TN)
-https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://dcb-rw-livedazn.cdn.netrw.it/bmib2ujfzjcq1d433582lfur8/web/stream.mpd%3Fchannel%3D3920%26outlet%3Ddazn-italy%26plang%3Dit%26ck%3DZmFhMzdmM2FjOTE5NWFkZGI0YzkyM2Q2YTE4NjlhYzM6NjFkZTFkMjU1MTE4M2ZiNDEwNzgwZjYwNmJjNmRhMDI%3D&key_id=faa37f3ac9195addb4c923d6a1869ac3&key=61de1d2551183fb410780f606bc6da02
+#EXTINF:-1 tvg-id="DaznATA" tvg-name="FA CUP COMMUNITY SHIELD - INGHILTERRA DOMENICA 10 AGOSTO 15:30 Koln - Atalanta" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Dazn (TN)
+https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://dcb-rw-livedazn.cdn.netrw.it/p4inrj969jyj1xttuxjdjd8ek/web/stream.mpd%3Fchannel%3D9943%26outlet%3Ddazn-italy%26plang%3Dit%26ck%3DZjJkMzE1NDI2YTQ2NWIzMGI1ODExYzU2NTI0MjExZDQ6ZDEzN2I5NGY0MGY5MWRiMDg4ODY4N2IyMWQ1MjI5ZjU%3D&key_id=f2d315426a465b30b5811c56524211d4&key=d137b94f40f91db0888687b21d5229f5
+
+#EXTINF:-1 tvg-id="DaznPAR" tvg-name="FA CUP COMMUNITY SHIELD - INGHILTERRA DOMENICA 10 AGOSTO 15:30 Heidenheim - Parma" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Dazn (TN)
+https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://dcb-rw-livedazn.cdn.netrw.it/68rpt6sonxwa1xr7nkw18jgs1/web/stream.mpd%3Fchannel%3D3927%26outlet%3Ddazn-italy%26plang%3Dit%26ck%3DZTJjMzlmNDE4NTQ1NTExOGIxYWExYTEyNmY2NjMyMDg6YTM4NDkyZTA1Y2JlMWY1NDUyMWZmYzYwZjgyNjJhN2U%3D&key_id=e2c39f4185455118b1aa1a126f663208&key=a38492e05cbe1f54521ffc60f8262a7e
+
+#EXTINF:-1 tvg-id="DaznUDI" tvg-name="FA CUP COMMUNITY SHIELD - INGHILTERRA DOMENICA 10 AGOSTO 15:30 Werder Bremen - Udinese" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Dazn (TN)
+https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://dcb-rw-livedazn.cdn.netrw.it/1ug1gi5w0jkzq16y1pb8vp7qoz/web/stream.mpd%3Fchannel%3D9945%26outlet%3Ddazn-italy%26plang%3Dit%26ck%3DYWMxNDBkZWMyYWY4NWUyYjk4NTgzNDQxMjNjZWY5NTc6OTEyNDYyODExMDg4MDE0ZDBjYTFhM2UwNjA3OTk3MTk%3D&key_id=ac140dec2af85e2b9858344123cef957&key=912462811088014d0ca1a3e060799719
+
+#EXTINF:-1 tvg-id="DaznROM" tvg-name="FA CUP COMMUNITY SHIELD - INGHILTERRA DOMENICA 10 AGOSTO 16:00 Everton - Roma" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Dazn (TN)
+https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://dcb-rw-livedazn.cdn.netrw.it/vn0i8tg52w1c1cqt4sxjt51e9/web/stream.mpd%3Fchannel%3D3959%26outlet%3Ddazn-italy%26plang%3Dit%26ck%3DMjNkMDIxMWUwNTA0NTNmZWFmMjNhMmZlNzQ0YzUwNTA6N2YwZTQwYTQ0ODljMTE2NGFlOTdhOGI5ZDNhMTkzMDc%3D&key_id=23d0211e050453feaf23a2fe744c5050&key=7f0e40a4489c1164ae97a8b9d3a19307
+
+#EXTINF:-1 tvg-id="DaznLAZ" tvg-name="FA CUP COMMUNITY SHIELD - INGHILTERRA DOMENICA 10 AGOSTO 16:00 Burnley - Lazio" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Dazn (TN)
+https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://dcb-rw-livedazn.cdn.netrw.it/622zr6fku3jo158pb5jwaez7s/tv/stream.mpd%3Fchannel%3D3926%26outlet%3Ddazn-italy%26plang%3Dit%26ck%3DZmUwY2JlMDFiZDk4NWZmMmJiYzdmNjU0YzZkODI4NGE6OGUwNmRlZmJkYmRjM2QxZGIzMWVhZjkwYmEzMTgzMGU%3D&key_id=fe0cbe01bd985ff2bbc7f654c6d8284a&key=8e06defbdbdc3d1db31eaf90ba31830e
+
+#EXTINF:-1 tvg-id="DaznMIL" tvg-name="FA CUP COMMUNITY SHIELD - INGHILTERRA DOMENICA 10 AGOSTO 16:00 Leeds - Milan" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Dazn (TN)
+https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://dca-rw-livedazn.cdn.netrw.it/12c2tuvao849fzpv21dt6mm0u/tv/stream.mpd%3Fchannel%3D7082%26outlet%3Ddazn-italy%26plang%3Dit%26ck%3DOTZjM2RlNDc1MTVlNTJhNDk3MTkwZGFiZGRlMmM4NDA6MGFlMzdkZjI4NzBlM2I3MTUxNWE0NzVlNzYxZDI4MzM%3D&key_id=96c3de47515e52a497190dabdde2c840&key=0ae37df2870e3b71515a475e761d2833
 
 #EXTINF:-1 tvg-id="Dazn1amazon" tvg-name="FA CUP COMMUNITY SHIELD - INGHILTERRA DOMENICA 10 AGOSTO 16:00 Borussia Dortmund - Juventus" tvg-logo="https://thisnot.business/loghi/logoaaa.png" group-title="Sport;ThisNot", Dazn1 (TN)
 https://link.mfp/proxy/mpd/manifest.m3u8?api_password=mfp&d=https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd&key_id=8272bf6ba46f23f9da5270057b6e028a&key=74ae70dd10b4bb38ed6ffe843f3e2ccd
