@@ -2,19 +2,12 @@
 
 Questo repository contiene script Python per generare automaticamente liste M3U di canali televisivi italiani, con un focus sugli eventi sportivi e la possibilità di utilizzare un proxy per una maggiore stabilità dei flussi.
 
-Si possono utilizzare due proxy, proxydd,tvproxy e mediaflow proxy
-per OMG consiglio Mediaflow, a breve uscirà una versione che consentirà di far partire anche i flussi HAT (H) e (Hd) e Thisnot (TN)
+Si può utilizzare solo mediaflow-proxy
 
 **Link ai proxy**
 
-https://github.com/mhdzumair/mediaflow-proxy
+https://github.com/nzo66/mediaflow-proxy oppure https://github.com/mhdzumair/mediaflow-proxy
 
-Pigzilla
-
-https://github.com/MarkMCFC/tfms.xyz
-
-
-per far girare anche i link HAT andarà installata una versione diversa di Mediaflow, quando sarà disponibile aggiornerò il readme
 
 ## ✨ Liste M3U Disponibili
 
@@ -31,10 +24,6 @@ Una volta configurati ed eseguiti gli script e i workflow GitHub Actions, avrai 
     *   `channels_italy.m3u8`
 *   ⚽ **Eventi Sportivi Maggiori (Misto ITA/Internazionale):**
     *   `itaevents.m3u8`
-*   🏆 **Eventi Sportivi Maggiori (Solo Flussi Italiani):**
-    *   `fullita.m3u8`
-*   🌍 **TUTTI gli Eventi Sportivi (Molto Estesa):**
-    *   `onlyevents.m3u8`
 ---
 
 ## 🛠️ Configurazione Iniziale degli Script
@@ -46,7 +35,7 @@ Prima di poter generare le liste, è necessario configurare alcuni parametri neg
 Modifica il file:
 *   `.env`
   
-    Il file ENV ora è diviso per siti, quindi scegliete per ogni sito il tipo di proxy che volete scegliere
+    Inserire i dati solo in MFP e PSW, PSW obbligatoria
 
   
 ## ⚙️ Configurazione e Esecuzione dei Workflow GitHub Actions
@@ -73,11 +62,7 @@ Esegui il workflow nel seguente ordine:
 
 8. ⏳ ATTENDI IL COMPLETAMENTO del workflow precedente (deve apparire una spunta verde ✅).
 
-     
-9. (Opzionale) 🌍1 Update OnlyEvents :
-   - Se desideri la lista con TUTTI gli eventi sportivi (molto estesa e potenzialmente con sport di nicchia), esegui anche questo workflow dopo il completamento degli altri.
-Attendi che tutti i workflow selezionati abbiano una spunta verde ✅. Questo indica che le liste M3U sono state generate e aggiornate nel tuo repository.
-
+   
 Per i giorni a seguire non serve fare nulla, partono in automatico, mettere l'aggiornamento delle playlist su OMG ogni ora
 
 
