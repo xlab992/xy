@@ -9,9 +9,10 @@ load_dotenv()
 
 MFP = os.getenv("MFP")
 PSW = os.getenv("PSW")
+PZPROXY = os.getenv("PZPROXY")
 # MFPRender = os.getenv("MFPRender") # Load if needed in the future
 # PSWRender = os.getenv("PSWRender") # Load if needed in the future
-PZPROXY = os.getenv("PZPROXY", "") # Kept as a general optional prefix
+PROXY = os.getenv("PROXY", "") # Kept as a general optional prefix
 
 if not MFP or not PSW:
     raise ValueError("MFP and PSW environment variables must be set.")
@@ -23,7 +24,7 @@ ORIGIN = "forcedtoplay.xyz"
 HEADER = f"&h_user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F133.0.0.0+Safari%2F537.36&h_referer=https%3A%2F%2F{REFERER}%2F&h_origin=https%3A%2F%2F{ORIGIN}"
 # File e URL statici
 daddyLiveChannelsFileName = '247channels.html'
-daddyLiveChannelsURL = 'https://daddylive.dad/24-7-channels.php'
+daddyLiveChannelsURL = 'https://thedaddy.click/24-7-channels.php'
 
 # Headers per le richieste
 headers = {
@@ -175,7 +176,7 @@ def get_stream_link(dlhd_id, max_retries=3):
     print(f"Getting stream link for channel ID: {dlhd_id}...")
     
     # Restituisci direttamente l'URL senza fare richieste HTTP
-    return f"https://daddylive.dad/stream/stream-{dlhd_id}.php"
+    return f"https://thedaddy.click/stream/stream-{dlhd_id}.php"
 
 def fetch_with_debug(filename, url):
     try:
@@ -254,7 +255,8 @@ def generate_m3u8_247(matches):
                 file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
                 # New stream URL format
                 #file.write(f"{PROXY}{MFP}/extractor/video?host=DLHD&redirect_stream=true&api_password={PSW}&d={stream_url_dynamic}\n\n")
-                file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
+                #file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
+                file.write(f"{MFP}/proxy/hls/manifest.m3u8?api_password={PSW}&d={stream_url_dynamic}\n\n")
                 processed_247_channels += 1
             else:
                 print(f"Failed to get stream URL for 24/7 channel ID: {channel_id}. Skipping M3U8 entry for this channel.")
@@ -275,7 +277,8 @@ def add_dazn1_channel():
             file.write(f"#EXTINF:-1 tvg-id=\"{tvg_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"{category}\", {channel_name} (D)\n")
             # New stream URL format
             #file.write(f"{PROXY}{MFP}/extractor/video?host=DLHD&redirect_stream=true&api_password={PSW}&d={stream_url_dynamic}\n\n")
-            file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
+            #file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
+            file.write(f"{MFP}/proxy/hls/manifest.m3u8?api_password={PSW}&d={stream_url_dynamic}\n\n")
             return 1
     else:
         print(f"Failed to get stream URL for DAZN 1 channel ID: {channel_id}")
