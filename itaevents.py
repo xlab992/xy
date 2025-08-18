@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 import random
 import uuid
-import fetcher
 import json
 import os
 import datetime
@@ -11,20 +10,25 @@ from bs4 import BeautifulSoup
 import time
 import re
 from urllib.parse import quote_plus  # Add this import
+import urllib.parse # Aggiunto per la logica dei loghi
+import io # Aggiunto per la logica dei loghi
+from PIL import Image, ImageDraw, ImageFont # Aggiunto per la logica dei loghi
 from dotenv import load_dotenv
 load_dotenv()
+
 MFP = os.getenv("MFP")
 PSW = os.getenv("PSW")
+PZPROXY = os.getenv("PZPROXY")
 # MFPRender = os.getenv("MFPRender") # Load if needed in the future
 # PSWRender = os.getenv("PSWRender") # Load if needed in the future
-PZPROXY = os.getenv("PZPROXY", "") # Kept as a general optional prefix
+PROXY = os.getenv("PROXY", "") # Kept as a general optional prefix
 
 if not MFP or not PSW:
     raise ValueError("MFP and PSW environment variables must be set.")
 
 GUARCAL = os.getenv("GUARCAL")
 DADDY = os.getenv("DADDY")
-SKYSTR = os.getenv("SKYSTR")
+# SKYSTR = os.getenv("SKYSTR") # Non più usato dalla nuova logica dei loghi
 
 # Constants
 #REFERER = "forcedtoplay.xyz"
@@ -41,6 +45,60 @@ LOGO_CACHE = {}
 # Add a cache for logos loaded from the local file
 LOCAL_LOGO_CACHE = [] # Changed to a list to store URLs directly
 LOCAL_LOGO_FILE = "guardacalcio_image_links.txt"
+
+RBT_PAGES_DIR_ITALOG = "download" # Directory dove italog si aspetta di trovare le pagine HTML
+RBT_BASE_URL = "https://www.rbtv77.com"
+RBT_SPORT_PATHS = {
+    "calcio": "/football.html",
+    "soccer": "/football.html",
+    "football americano": "/american-football.html",
+    "basket": "/basketball.html",
+    "pallacanestro": "/basketball.html",
+    "tennis": "/tennis.html",
+    "motorsport": "/motorsport.html",
+    "automobilismo": "/motorsport.html",
+    "formula 1": "/motorsport.html",
+    "f1": "/motorsport.html",
+    "motogp": "/motorsport.html",
+    "pallavolo": "/volleyball.html",
+    "volley": "/volleyball.html",
+    "fighting": "/fighting.html", # boxe, mma, wwe
+    "boxe": "/fighting.html",
+    "combat sport": "/fighting.html",
+}
+
+os.makedirs("logos", exist_ok=True) # Assicura che la directory dei loghi esista
+
+def generate_text_logo(text, size=130):
+    """
+    Genera un'immagine quadrata con il testo specificato centrato.
+    Usato come fallback quando un logo non viene trovato.
+    """
+    print(f"[DEBUG_LOGO] generate_text_logo: Generazione logo testuale per '{text}' con dimensione {size}x{size}")
+    try:
+        img = Image.new('RGBA', (size, size), (255, 255, 255, 0))
+        draw = ImageDraw.Draw(img)
+        try:
+            # Prova a usare un font TrueType, altrimenti carica il default
+            font_size = int(size * 0.2) # Dimensione font proporzionale alla dimensione immagine
+            font = ImageFont.truetype("arial.ttf", font_size)
+        except IOError:
+            font = ImageFont.load_default()
+            print("[DEBUG_LOGO] generate_text_logo: Font Arial non trovato, usando font di default.")
+
+        # Calcola la dimensione del testo
+        text_bbox = draw.textbbox((0, 0), text, font=font)
+        text_width = text_bbox[2] - text_bbox[0]
+        text_height = text_bbox[3] - text_bbox[1]
+
+        # Posiziona il testo al centro
+        text_x = (size - text_width) / 2
+        text_y = (size - text_height) / 2
+        draw.text((text_x, text_y), text, fill=(0, 0, 0), font=font) # Testo nero
+        return img
+    except Exception as e:
+        print(f"[!] Errore durante la generazione del logo testuale per '{text}': {e}")
+        return Image.new('RGBA', (size, size), (255, 255, 255, 0)) # Restituisce un'immagine vuota in caso di errore
 
 # Define keywords for EXCLUDING channels
 EXCLUDE_KEYWORDS_FROM_CHANNEL_INFO = ["college", "youth"]
@@ -97,6 +155,14 @@ SPORT_TRANSLATIONS = {
     "handball": "pallamano"
 }
 
+# Lista di User-Agent comuni (per la logica dei loghi)
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+]
+
 # Headers for requests
 headers = {
     "Accept": "*/*",
@@ -108,8 +174,9 @@ headers = {
     "Sec-Fetch-Dest": "empty",
     "Sec-Fetch-Mode": "cors",
     "Sec-Fetch-Site": "same-origin",
-    "Sec-Fetch-Storage-Access": "active",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+    "Referer": RBT_BASE_URL + "/", # Aggiunto per coerenza con la logica dei loghi
+    "Sec-Fetch-Storage-Access": "active"
+    # User-Agent sarà impostato dinamicamente se necessario dalla logica dei loghi
 }
 
 # Remove existing M3U8 file if it exists
@@ -131,243 +198,497 @@ def load_local_logos():
         except Exception as e:
             print(f"Errore durante il caricamento del file locale dei loghi {LOCAL_LOGO_FILE}: {e}")
 
-def get_dynamic_logo(event_name):
-    """
-    Cerca immagini dinamiche per eventi di Serie A, Serie B, Serie C, La Liga, Premier League, Bundesliga e Ligue 1
-    """
-    # Estrai i nomi delle squadre dall'evento per usarli come chiave di cache
-    teams_match = re.search(r':\s*([^:]+?)\s+vs\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
+def get_github_logo_url(local_path):
+    nomegithub = os.getenv("NOMEGITHUB")
+    nomerepo = os.getenv("NOMEREPO")
+    filename = os.path.basename(local_path)
+    filename_encoded = urllib.parse.quote(filename)
+    return f"https://github.com/{nomegithub}/{nomerepo}/raw/branch/main/logos/{filename_encoded}"
 
+
+def create_logo_from_urls(team1_original, team2_original, logo1_url, logo2_url, event_name_for_single_logo="event_logo"):
+    """
+    Scarica i loghi dagli URL, li combina se sono due, o salva il singolo.
+    Restituisce il percorso locale del file logo salvato.
+    """
+    try:
+        img1 = None
+        img2 = None
+
+        # Processa il primo logo
+        if logo1_url and logo1_url.startswith("textlogo:"):
+            team1_text = logo1_url.replace("textlogo:", "")
+            img1 = generate_text_logo(team1_text, size=130) # Usa la dimensione standard del logo team
+        elif logo1_url:
+            img1_content = requests.get(logo1_url, timeout=10).content
+            img1 = Image.open(io.BytesIO(img1_content)).convert('RGBA')
+
+        # Processa il secondo logo
+        if logo2_url and logo2_url.startswith("textlogo:"):
+            team2_text = logo2_url.replace("textlogo:", "")
+            img2 = generate_text_logo(team2_text, size=130) # Usa la dimensione standard del logo team
+        elif logo2_url:
+            img2_content = requests.get(logo2_url, timeout=10).content
+            img2 = Image.open(io.BytesIO(img2_content)).convert('RGBA')
+
+        if team1_original and team2_original and logo1_url and logo2_url: # Due loghi da combinare
+            vs_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "vs.png")
+
+            print(f"[DEBUG_LOGO] create_logo_from_urls: Dimensioni originali - Logo1: {img1.size}, Logo2: {img2.size}")
+            # Dimensioni fisse e bilanciate
+            final_size = 400
+            team_logo_size = 130  # Dimensione fissa per i team
+            vs_size = 90  # Dimensione fissa più piccola per VS
+
+            print(f"Dimensioni usate: Teams={team_logo_size}x{team_logo_size}, VS={vs_size}x{vs_size}")
+
+            print(f"[DEBUG_LOGO] create_logo_from_urls: Ridimensionamento loghi team a {team_logo_size}x{team_logo_size}")
+            # Assicurati che img1 e img2 siano oggetti Image prima di ridimensionare
+            if not isinstance(img1, Image.Image) or not isinstance(img2, Image.Image):
+                 print("[!] Errore: Immagini non valide per la combinazione.")
+                 return None
+            img1 = img1.resize((team_logo_size, team_logo_size), Image.Resampling.LANCZOS)
+            img2 = img2.resize((team_logo_size, team_logo_size), Image.Resampling.LANCZOS)
+
+            # Carica e ridimensiona l'immagine VS
+            if os.path.exists(vs_path):
+                vs_img = Image.open(vs_path).convert('RGBA')
+                vs_img = vs_img.resize((vs_size, vs_size), Image.Resampling.LANCZOS)
+                print(f"[DEBUG_LOGO] create_logo_from_urls: Immagine VS ridimensionata a {vs_img.size}")
+            else:  # Se non trova vs.png crea una di fallback
+                vs_img = Image.new('RGBA', (vs_size, vs_size), (255, 255, 255, 0))
+                draw = ImageDraw.Draw(vs_img)
+                try:
+                    font = ImageFont.truetype("arial.ttf", 25)
+                except IOError:
+                    font = ImageFont.load_default()
+
+                text_bbox = draw.textbbox((0, 0), "VS", font=font)
+                text_width = text_bbox[2] - text_bbox[0]
+                text_height = text_bbox[3] - text_bbox[1]
+                text_x = (vs_size - text_width) / 2
+                text_y = (vs_size - text_height) / 2
+                draw.text((text_x, text_y), "VS", fill=(400, 0, 0), font=font)
+                print(f"[DEBUG_LOGO] create_logo_from_urls: Immagine VS di fallback creata.")
+
+            # Crea l'immagine quadrata finale
+            combined = Image.new('RGBA', (final_size, final_size), (255, 255, 255, 0))
+
+            # Calcola le posizioni per centrare tutto orizzontalmente
+            spacing = 20
+            total_content_width = team_logo_size + vs_size + team_logo_size + (2 * spacing)
+            start_x = (final_size - total_content_width) // 2
+
+            # Posizioni X
+            img1_x = start_x
+            vs_x = start_x + team_logo_size + spacing
+            img2_x = vs_x + vs_size + spacing
+
+            # Posizioni Y (centrate verticalmente)
+            img1_y = (final_size - team_logo_size) // 2
+            img2_y = (final_size - team_logo_size) // 2
+            vs_y = (final_size - vs_size) // 2
+
+            # Incolla le immagini
+            combined.paste(img1, (img1_x, img1_y), img1)
+            combined.paste(vs_img, (vs_x, vs_y), vs_img)
+            combined.paste(img2, (img2_x, img2_y), img2)
+
+            # Salva l'immagine
+            clean_team1 = re.sub(r'[\\/*?:"<>|]', "", team1_original)
+            clean_team2 = re.sub(r'[\\/*?:"<>|]', "", team2_original)
+            output_filename = f"{clean_team1}_vs_{clean_team2}.png"
+            output_path = os.path.join("logos", output_filename)
+            print(f"[DEBUG_LOGO] create_logo_from_urls: Salvataggio logo combinato in: {output_path}")
+            combined.save(output_path)
+            return output_path
+
+        elif logo1_url: # Un solo logo
+            if not isinstance(img1, Image.Image):
+                 print("[!] Errore: Immagine singola non valida.")
+                 return None
+            print(f"[DEBUG_LOGO] create_logo_from_urls: Gestione logo singolo da URL: {logo1_url}")
+            # img_content già scaricato/generato come img1
+            # Tentativo di aprire l'immagine per ottenere le dimensioni originali
+            """ # Commentato perché img1 è già un oggetto Image
+                single_img = Image.open(io.BytesIO(img_content))
+                print(f"[DEBUG_LOGO] create_logo_from_urls: Dimensioni logo singolo originale: {single_img.size}")
+            except Exception as img_err:
+                print(f"[DEBUG_LOGO] create_logo_from_urls: Impossibile leggere le dimensioni del logo singolo: {img_err}")
+            """
+            clean_event_name = re.sub(r'[^\w\s-]', '', event_name_for_single_logo).strip().replace(' ', '_')
+            file_ext = logo1_url.split('.')[-1] if '.' in logo1_url.split('/')[-1] else 'png'
+            output_path = os.path.join("logos", f"{clean_event_name}_single.{file_ext}")
+            print(f"[DEBUG_LOGO] create_logo_from_urls: Salvataggio logo singolo (generato/scaricato) in: {output_path}")
+            img1.save(output_path)
+            return output_path
+
+    except Exception as e:
+        print(f"Errore creazione logo da URLs ({logo1_url}, {logo2_url}): {e}")
+    return None
+
+def _search_bing_fallback(event_name):
+    """
+    Cerca un logo per l'evento specificato utilizzando un motore di ricerca
+    Restituisce l'URL dell'immagine trovata o None se non trovata
+    """
+    try:
+        # Pulizia nome evento
+        clean_event_name = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', event_name)
+        if ':' in clean_event_name:
+            clean_event_name = clean_event_name.split(':', 1)[1].strip()
+        # This function is commented out as per user request.
+        print(f"[DEBUG_LOGO] _search_bing_fallback: Ricerca logo generica per: '{clean_event_name}'")
+        # print(f"[🔍] Ricerca logo generica per: {clean_event_name}") # Log ridotto
+        search_query = urllib.parse.quote(f"{clean_event_name} logo")
+        search_url = f"https://www.bing.com/images/search?q={search_query}&qft=+filterui:photo-transparent+filterui:aspect-square+filterui:imagesize-large" # Aggiunto filtro per immagini grandi
+
+        current_headers = headers.copy()
+        current_headers["User-Agent"] = random.choice(USER_AGENTS)
+
+        response = requests.get(search_url, headers=current_headers, timeout=10)
+        if response.status_code == 200:
+            match = re.search(r'"contentUrl":"(https?://[^"]+\.(?:png|jpg|jpeg|svg))"', response.text)
+            if match:
+                print(f"[DEBUG_LOGO] _search_bing_fallback: Logo trovato con Bing: {match.group(1)}")
+                return match.group(1)
+            print(f"[DEBUG_LOGO] _search_bing_fallback: Nessun logo trovato con Bing per '{clean_event_name}'.")
+        return None
+    except Exception as e:
+        print(f"[!] Errore nella ricerca del logo Bing: {str(e)}")
+        # This function is commented out as per user request.
+        return None
+
+def search_team_logo(team_name):
+    """
+    Funzione dedicata alla ricerca del logo di una singola squadra (attualmente non usata direttamente dalla logica principale).
+    """
+    try:
+        # This function is commented out as per user request.
+        print(f"[DEBUG_LOGO] search_team_logo: Inizio ricerca logo per squadra: '{team_name}'")
+        search_query = urllib.parse.quote(f"{team_name} logo")
+        search_url = f"https://www.bing.com/images/search?q={search_query}&qft=+filterui:photo-transparent+filterui:aspect-square&form=IRFLTR"
+
+        current_headers = headers.copy() # Usa gli header globali come base
+        current_headers["User-Agent"] = random.choice(USER_AGENTS) # Scegli un User-Agent a caso
+
+        response = requests.get(search_url, headers=current_headers, timeout=10)
+
+        if response.status_code == 200:
+            patterns = [
+                r'"contentUrl":"(https?://[^"]+\.(?:png|jpg|jpeg|svg))"',
+                # Pattern per murl, a volte codificato in HTML
+                r'murl&quot;:&quot;(https?://[^&]+)&quot;',
+                r'"murl":"(https?://[^"]+)"'
+            ]
+            for pattern in patterns:
+                matches = re.findall(pattern, response.text)
+                if matches:
+                    for match_url in matches:
+                        # Preferisci PNG o SVG se disponibili
+                        if any(ext in match_url.lower() for ext in ['.png', '.svg', '.jpg', '.jpeg']):
+                            print(f"[DEBUG_LOGO] search_team_logo: Logo trovato per '{team_name}': {match_url} (formato preferito)")
+                            return match_url
+                    # Fallback al primo match se nessun formato preferito trovato
+                    print(f"[DEBUG_LOGO] search_team_logo: Logo trovato per '{team_name}': {matches[0]} (fallback al primo)")
+
+                    return matches[0] # Fallback al primo match se nessun formato preferito trovato
+        print(f"[DEBUG_LOGO] search_team_logo: Nessun logo trovato per '{team_name}'.")
+    except Exception as e:
+        print(f"[!] Errore nella ricerca del logo per '{team_name}': {e}")
+        # This function is commented out as per user request.
+    return None
+
+def _get_rbtv77_local_page_path(sport_key, event_name):
+    """Determina il percorso del file HTML locale di rbtv77.com per lo sport specificato."""
+    normalized_sport_key = sport_key.lower()
+    if normalized_sport_key in RBT_SPORT_PATHS:
+        filename_base = RBT_SPORT_PATHS[normalized_sport_key].strip('/').replace('.html', '').replace('/', '_')
+        return os.path.join(RBT_PAGES_DIR_ITALOG, f"rbtv77_{filename_base}.html")
+    for dict_key, path_segment in RBT_SPORT_PATHS.items():
+        if dict_key in normalized_sport_key or normalized_sport_key in dict_key:
+            filename_base = path_segment.strip('/').replace('.html', '').replace('/', '_')
+            return os.path.join(RBT_PAGES_DIR_ITALOG, f"rbtv77_{filename_base}.html")
+    event_name_lower = event_name.lower()
+    for keyword, path_segment in RBT_SPORT_PATHS.items():
+        if keyword in event_name_lower:
+            filename_base = path_segment.strip('/').replace('.html', '').replace('/', '_')
+            return os.path.join(RBT_PAGES_DIR_ITALOG, f"rbtv77_{filename_base}.html")
+    return None
+
+def _parse_rbtv77_html_content(html_content, event_name, team1_norm, team2_norm, team1_original=None, team2_original=None):
+    """Analizza l'HTML di rbtv77.com per trovare loghi corrispondenti."""
+    print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Inizio parsing per evento: '{event_name}'. Team Originali: '{team1_original}' vs '{team2_original}'. Team Normalizzati: '{team1_norm}' vs '{team2_norm}'.")
+    soup = BeautifulSoup(html_content, 'html.parser')
+    event_containers = soup.find_all('div', class_='PefrsX') # Contenitore principale dell'evento
+    print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Trovati {len(event_containers)} contenitori di eventi con classe 'PefrsX'.")
+    for container in event_containers:
+        team_divs = container.find('div', class_='_484Pxk')
+        if not team_divs: continue
+        side_a_div = team_divs.find('div', class_='ao9NcA')
+        side_b_div = team_divs.find('div', class_='MzXghE')
+        def extract_side_data(side_div):
+            if not side_div: return None, None
+            name_span = side_div.find('span', class_='iXmXJT')
+            name = name_span.text.strip() if name_span else ""
+            logo_img = side_div.find('img', class_='r-logo')
+            logo_url = logo_img['origin-src'] if logo_img and logo_img.get('origin-src') else \
+                       (logo_img['src'] if logo_img and logo_img.get('src') else None)
+            print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Estratto lato: Nome='{name}', Logo URL='{logo_url}'")
+            return name.lower(), logo_url
+        name_a, logo_a_url = extract_side_data(side_a_div)
+        name_b, logo_b_url = extract_side_data(side_b_div)
+        if team1_norm and team2_norm:
+            print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Evento VS. Nomi normalizzati HTML: '{name_a}' vs '{name_b}'. Nomi normalizzati input: '{team1_norm}' vs '{team2_norm}'")
+            def get_search_terms(original_name_from_event, normalized_name_from_event):
+                terms = set()
+                if original_name_from_event:
+                    name_lower = original_name_from_event.lower()
+                    terms.add(name_lower)
+                    name_for_base_extraction = re.sub(r'\s+[A-Z]\.?$', '', original_name_from_event, flags=re.IGNORECASE).strip()
+                    if name_for_base_extraction:
+                        base_term = name_for_base_extraction.split(' ')[0].lower()
+                        if base_term: terms.add(base_term)
+                    if '.' in name_lower:
+                        parts_before_dot = name_lower.split('.')[0].strip()
+                        if parts_before_dot:
+                            terms.add(parts_before_dot)
+                            terms.add(parts_before_dot.split(' ')[0])
+                if normalized_name_from_event:
+                    norm_lower = normalized_name_from_event.lower()
+                    terms.add(norm_lower)
+                    if ' ' in norm_lower: terms.add(norm_lower.split(' ')[0])
+                terms.discard('')
+                return list(terms)
+            team1_search_terms = get_search_terms(team1_original, team1_norm)
+            # Aggiungi il nome normalizzato del sito come termine di ricerca
+            #if name_a: team1_search_terms.append(name_a)
+            #if name_b: team1_search_terms.append(name_b)
+            team1_search_terms = list(set(term for term in team1_search_terms if term)) # Rimuovi duplicati e vuoti
+
+            team2_search_terms = get_search_terms(team2_original, team2_norm)
+            # Aggiungi il nome normalizzato del sito come termine di ricerca
+            #if name_a: team2_search_terms.append(name_a)
+            #if name_b: team2_search_terms.append(name_b)
+            team2_search_terms = list(set(term for term in team2_search_terms if term)) # Rimuovi duplicati e vuoti
+
+            print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Termini di ricerca per Team1 ({team1_original if team1_original else team1_norm}): {team1_search_terms}")
+            print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Termini di ricerca per Team2 ({team2_original if team2_original else team2_norm}): {team2_search_terms}")
+
+            name_a_parts = name_a.lower().split()
+            name_b_parts = name_b.lower().split()
+            match1 = any(t1_term in name_a.lower() or (name_a_parts and t1_term in name_a_parts[-1]) for t1_term in team1_search_terms) and \
+                     any(t2_term in name_b.lower() or (name_b_parts and t2_term in name_b_parts[-1]) for t2_term in team2_search_terms)
+            match2 = any(t1_term in name_b.lower() or (name_b_parts and t1_term in name_b_parts[-1]) for t1_term in team1_search_terms) and \
+                     any(t2_term in name_a.lower() or (name_a_parts and t2_term in name_a_parts[-1]) for t2_term in team2_search_terms)
+            if match1 and logo_a_url and logo_b_url:
+                print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Corrispondenza trovata su RBTv77: {name_a} vs {name_b}. Loghi: {logo_a_url}, {logo_b_url}")
+                return logo_a_url, logo_b_url
+            if match2 and logo_a_url and logo_b_url:
+                print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Corrispondenza trovata su RBTv77 (invertita): {name_b} vs {name_a}. Loghi: {logo_b_url}, {logo_a_url}")
+                return logo_b_url, logo_a_url
+
+            # Nuova logica: cerca corrispondenza parziale per team1 e team2 nei nomi trovati
+            match_partial_a = any(term in name_a.lower() for term in team1_search_terms) and any(term in name_b.lower() for term in team2_search_terms)
+            match_partial_b = any(term in name_b.lower() for term in team1_search_terms) and any(term in name_a.lower() for term in team2_search_terms)
+            if match_partial_a and logo_a_url and logo_b_url:
+                print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Corrispondenza parziale trovata su RBTv77: {name_a} vs {name_b}. Loghi: {logo_a_url}, {logo_b_url}")
+                return logo_a_url, logo_b_url
+            if match_partial_b and logo_a_url and logo_b_url:
+                print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Corrispondenza parziale trovata su RBTv77 (invertita): {name_b} vs {name_a}. Loghi: {logo_b_url}, {logo_a_url}")
+                return logo_b_url, logo_a_url
+        event_title_div = container.find('div', class_='lqdQi3')
+        event_title_on_site = event_title_div.text.lower() if event_title_div else ""
+        cleaned_event_name_for_search = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', event_name).lower()
+        if ':' in cleaned_event_name_for_search:
+            cleaned_event_name_for_search = cleaned_event_name_for_search.split(':', 1)[1].strip()
+        simplified_event_name = ' '.join(normalize_team_name(cleaned_event_name_for_search).lower().split())
+        search_terms_generic = []
+        if team1_original: search_terms_generic.extend(get_search_terms(team1_original, team1_norm))
+        if team2_original: search_terms_generic.extend(get_search_terms(team2_original, team2_norm))
+        if not search_terms_generic and simplified_event_name:
+            search_terms_generic.extend(get_search_terms(None, simplified_event_name))
+        name_a_last_word_generic = name_a.lower().split()[-1] if name_a else ""
+        name_b_last_word_generic = name_b.lower().split()[-1] if name_b else ""
+        if search_terms_generic and any(term in name_a.lower() or term in name_a_last_word_generic or \
+                                        # Aggiunto controllo per nome intero o ultima parola
+                                        term in name_b.lower() or term in name_b_last_word_generic or \
+                                        term in event_title_on_site.lower() for term in search_terms_generic) and logo_a_url:
+            print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Corrispondenza evento singolo/generico trovata su RBTv77: {event_name} -> {name_a} (logo: {logo_a_url})")
+            if name_b and logo_b_url: return logo_a_url, logo_b_url
+            return logo_a_url, None
+    print(f"[DEBUG_LOGO] _parse_rbtv77_html_content: Nessuna corrispondenza trovata per '{event_name}'.")
+    return None, None
+
+def _scrape_rbtv77(event_name, sport_key, team1_original, team2_original, team1_norm, team2_norm, cache_key):
+    """Legge un file HTML locale di RBTv77 e cerca i loghi."""
+    local_html_path = _get_rbtv77_local_page_path(sport_key, event_name)
+    print(f"[DEBUG_LOGO] _scrape_rbtv77: Tentativo di scraping RBTv77 per '{event_name}', sport '{sport_key}'. Percorso HTML locale: '{local_html_path}'")
+    if not local_html_path or not os.path.exists(local_html_path): # print(f"File HTML locale RBTv77 non trovato per sport: {sport_key} / evento: {event_name} (atteso in {local_html_path})")
+        return None
+    try:
+        with open(local_html_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+        logo1_src_url, logo2_src_url = _parse_rbtv77_html_content(
+            html_content, event_name,
+            team1_norm, team2_norm,
+            team1_original, team2_original)
+        local_logo_path = None
+        print(f"[DEBUG_LOGO] _scrape_rbtv77: Risultati parsing RBTv77 per '{event_name}': logo1='{logo1_src_url}', logo2='{logo2_src_url}'")
+        if logo1_src_url and logo2_src_url and team1_original and team2_original:
+            print(f"[DEBUG_LOGO] _scrape_rbtv77: Trovato coppia loghi da RBTv77 per {team1_original} vs {team2_original}. Creazione logo combinato.")
+            local_logo_path = create_logo_from_urls(team1_original, team2_original, logo1_src_url, logo2_src_url)
+        elif logo1_src_url:
+            print(f"[DEBUG_LOGO] _scrape_rbtv77: URL logo singolo trovato nel file locale RBTv77 per {event_name}: {logo1_src_url}")
+            single_logo_name_base = team1_original if team1_original else event_name
+            local_logo_path = create_logo_from_urls(None, None, logo1_src_url, None, event_name_for_single_logo=single_logo_name_base)
+        if local_logo_path:
+            github_logo_url = get_github_logo_url(local_logo_path)
+            print(f"[DEBUG_LOGO] _scrape_rbtv77: Logo creato/trovato da RBTv77 per '{event_name}'. URL GitHub: {github_logo_url}")
+            if github_logo_url and cache_key: LOGO_CACHE[cache_key] = github_logo_url
+            elif github_logo_url: LOGO_CACHE[event_name] = github_logo_url
+            return github_logo_url
+    except Exception as e:
+        print(f"Errore durante l'elaborazione del file locale RBTv77 {local_html_path}: {e}")
+    return None
+
+def get_dynamic_logo(event_name, sport_key):
+    """
+    Cerca il logo per un evento seguendo una priorità rigorosa:
+    1. Cache in memoria (LOGO_CACHE)
+    2. File locale (guardacalcio_image_links.txt) - solo se trova ENTRAMBI i team con nome ESATTO
+    3. Analisi file HTML locali RBTv77 - solo se trova ENTRAMBI i team con nome ESATTO
+    4. Per eventi singoli (senza "vs"): Ricerca con Bing Image Search
+    5. Logo di default statico per tutti gli altri casi
+    """ # Removed step 6 from docstring
+    print(f"[DEBUG_LOGO] get_dynamic_logo: Inizio ricerca logo per evento: '{event_name}', sport: '{sport_key}'")
+    event_parts = event_name.split(':', 1)
+    teams_string = event_parts[1].strip() if len(event_parts) > 1 else event_parts[0].strip()
+
+    # Cerca pattern VS standard
+    teams_match = re.search(r'([^:]+?)\s+vs\s+([^:]+?)(?:\s+[-|]|$)', teams_string, re.IGNORECASE)
     if not teams_match:
-        # Try alternative format "Team1 - Team2"
-        teams_match = re.search(r'([^:]+?)\s+-\s+([^:]+?)(?:\s+[-|]|$)', event_name, re.IGNORECASE)
+        teams_match = re.search(r'([^:]+?)\s+-\s+([^:]+?)(?:\s+[-|]|$)', teams_string, re.IGNORECASE)
 
-    # Crea una chiave di cache specifica per questa partita
     cache_key = None
     team1 = None
     team2 = None
+    is_vs_event = False
+
     if teams_match:
         team1 = teams_match.group(1).strip()
         team2 = teams_match.group(2).strip()
         cache_key = f"{team1} vs {team2}"
+        is_vs_event = True
 
-        # Check if we already have this specific match in LOGO_CACHE (from web scraping)
         if cache_key in LOGO_CACHE:
-            print(f"Logo trovato in cache (web) per: {cache_key}")
+            print(f"[DEBUG_LOGO] get_dynamic_logo: Trovato in cache: VS event '{cache_key}'")
+            return LOGO_CACHE[cache_key]
+    else:
+        # Evento singolo (senza vs)
+        clean_event_name_for_cache = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', event_name)
+        if ':' in clean_event_name_for_cache:
+            clean_event_name_for_cache = clean_event_name_for_cache.split(':', 1)[1].strip()
+        cache_key = clean_event_name_for_cache
+        is_vs_event = False
+
+        if cache_key in LOGO_CACHE:
+            print(f"[DEBUG_LOGO] get_dynamic_logo: Trovato in cache: evento singolo '{cache_key}'")
             return LOGO_CACHE[cache_key]
 
-        # Check if we have this specific match in LOCAL_LOGO_CACHE (from local file)
-        load_local_logos() # Ensure local logos are loaded
+    # SOLO per eventi VS: controllo file locale con corrispondenza ESATTA
+    load_local_logos()
+    # Modificato il log per chiarezza
+    print(f"[DEBUG_LOGO] get_dynamic_logo: Controllo file locale (corrispondenza esatta VS) per: {is_vs_event}, team1: {team1}, team2: {team2}")
+    if LOCAL_LOGO_CACHE and is_vs_event and team1 and team2:
+        team1_normalized = team1.lower().replace(" ", "-")
+        team2_normalized = team2.lower().replace(" ", "-")
 
-        # --- Nuova logica per cercare nomi squadre negli URL locali ---
-        if LOCAL_LOGO_CACHE and team1 and team2: # Ensure teams were extracted
-            # Normalize team names for local file lookup (replace spaces with hyphens)
-            team1_normalized_for_lookup = team1.lower().replace(" ", "-")
-            team2_normalized_for_lookup = team2.lower().replace(" ", "-")
-    
-            for logo_url in LOCAL_LOGO_CACHE:
-                logo_url_lower = logo_url.lower()
-                # Check if both normalized team names are in the URL (case-insensitive)
-                if team1_normalized_for_lookup in logo_url_lower and team2_normalized_for_lookup in logo_url_lower:
-                     print(f"Logo trovato nel file locale per: {cache_key} -> {logo_url}")
-                     # Add to main cache for future use
-                     if cache_key:
-                         LOGO_CACHE[cache_key] = logo_url
-                     return logo_url
-                # Check if at least one normalized team name is in the URL (partial match fallback)
-                elif team1_normalized_for_lookup in logo_url_lower or team2_normalized_for_lookup in logo_url_lower:
-                     print(f"Logo parziale trovato nel file locale per: {cache_key} -> {logo_url}")
-                     # Add to main cache for future use
-                     if cache_key:
-                         LOGO_CACHE[cache_key] = logo_url
-                     return logo_url
-        # --- Fine nuova logica ---
+        for logo_url in LOCAL_LOGO_CACHE:
+            logo_url_lower = logo_url.lower()
+            # Deve contenere ENTRAMBI i team normalizzati con corrispondenza ESATTA
+            if (team1_normalized in logo_url_lower and
+                team2_normalized in logo_url_lower):
+                # Verifica aggiuntiva: il nome del file deve contenere esattamente i team
+                filename = logo_url.split('/')[-1].lower()
+                if (team1_normalized in filename and team2_normalized in filename):
+                    print(f"[DEBUG_LOGO] get_dynamic_logo: Trovato in file locale: logo combinato per '{cache_key}' -> {logo_url}")
+                    if cache_key:
+                        LOGO_CACHE[cache_key] = logo_url
+                    return logo_url
 
+    # SOLO per eventi VS: controllo RBTv77 con corrispondenza ESATTA
+    print(f"[DEBUG_LOGO] get_dynamic_logo: Controllo RBTv77 per VS event: {is_vs_event}, team1: {team1}, team2: {team2}")
+    if is_vs_event and team1 and team2:
+        team1_normalized = normalize_team_name(team1)
+        team2_normalized = normalize_team_name(team2)
 
-    # Verifica se l'evento è di Serie A o altre leghe
-    is_serie_a_or_other_leagues = any(league in event_name for league in ["Italy - Serie A", "La Liga", "Premier League", "Bundesliga", "Ligue 1"])
-    is_serie_b_or_c = any(league in event_name for league in ["Italy - Serie B", "Italy - Serie C"])
-    is_uefa_or_coppa = any(league in event_name for league in ["UEFA Champions League", "UEFA Europa League", "Conference League", "Coppa Italia"])
+        # Normalizzazioni speciali
+        if "bayern" in team1.lower():
+            team1_normalized = "Bayern"
+        if "bayern" in team2.lower():
+            team2_normalized = "Bayern"
+        if "internazionale" in team1.lower() or "inter" in team1.lower():
+            team1_normalized = "Inter"
+        if "internazionale" in team2.lower() or "inter" in team2.lower():
+            team2_normalized = "Inter"
 
-    if is_serie_a_or_other_leagues:
-        print(f"Evento Serie A o altre leghe rilevato: {event_name}")
-    elif is_serie_b_or_c:
-        print(f"Evento Serie B o Serie C rilevato: {event_name}")
-    elif is_uefa_or_coppa:
-        print(f"Evento UEFA o Coppa Italia rilevato: {event_name}")
-    else:
-        print(f"Evento non di Serie A, Serie B, Serie C o altre leghe: {event_name}")
-        # If no specific league and not found in local file/web cache, return default
-        if cache_key:
-            LOGO_CACHE[cache_key] = LOGO
-        return LOGO
+        rbtv77_logo = _scrape_rbtv77(event_name, sport_key, team1, team2, team1_normalized, team2_normalized, cache_key)
+        if rbtv77_logo:
+            print(f"[DEBUG_LOGO] get_dynamic_logo: Trovato da RBTv77: logo combinato per '{cache_key}' -> {rbtv77_logo}")
+            return rbtv77_logo
+    # Removed the fallback logic for searching/generating individual team logos
+    # as per user request to only use logos found in the HTML pages.
+    # if is_vs_event and team1 and team2:
+    #     print(f"[DEBUG_LOGO] get_dynamic_logo: Nessun logo combinato trovato per '{cache_key}'. Tentativo ricerca loghi singoli o generazione testuale.")
+    #     logo1_url = search_team_logo(team1)
+    #     if not logo1_url:
+    #         print(f"[DEBUG_LOGO] get_dynamic_logo: Logo singolo non trovato per '{team1}'. Generazione logo testuale.")
+    #         logo1_url = f"textlogo:{team1}" # Usa lo schema speciale per logo testuale
+    #
+    #     logo2_url = search_team_logo(team2)
+    #     if not logo2_url:
+    #         print(f"[DEBUG_LOGO] get_dynamic_logo: Logo singolo non trovato per '{team2}'. Generazione logo testuale.")
+    #         logo2_url = f"textlogo:{team2}" # Usa lo schema speciale per logo testuale
+    #
+    #     # Se almeno uno dei loghi è stato trovato o generato, crea il logo combinato
+    #     if logo1_url or logo2_url:
+    #         print(f"[DEBUG_LOGO] get_dynamic_logo: Creazione logo combinato con loghi singoli/testuali per '{cache_key}'. Logo1: '{logo1_url}', Logo2: '{logo2_url}'")
+    #         local_logo_path = create_logo_from_urls(team1, team2, logo1_url, logo2_url)
+    #         if local_logo_path:
+    #             github_logo_url = get_github_logo_url(local_logo_path)
+    #             print(f"[DEBUG_LOGO] get_dynamic_logo: Logo combinato creato/trovato (singoli/testuali) per '{cache_key}'. URL GitHub: {github_logo_url}")
+    #             if cache_key:
+    #                 LOGO_CACHE[cache_key] = github_logo_url
+    #             return github_logo_url
+    #         else:
+    #              print(f"[DEBUG_LOGO] get_dynamic_logo: Fallita la creazione del logo combinato con loghi singoli/testuali per '{cache_key}'.")
 
-    # Se non abbiamo ancora estratto i nomi delle squadre, fallo ora (dopo aver controllato cache e file locale)
-    if not teams_match:
-        print(f"Non sono riuscito a estrarre i nomi delle squadre da: {event_name}")
-        return LOGO
+    # Ricerca Bing SOLO per eventi singoli (senza vs)
+    print(f"[DEBUG_LOGO] get_dynamic_logo: Controllo Bing per evento singolo: {not is_vs_event}")
+    if not is_vs_event:
+        print(f"[DEBUG_LOGO] get_dynamic_logo: Evento singolo rilevato, tentativo Bing per: {event_name}")
+        try:
+            logo_result = None # Removed call to _search_bing_fallback(event_name)
+            if logo_result:
+                print(f"[DEBUG_LOGO] get_dynamic_logo: Logo trovato con Bing per evento singolo '{cache_key}': {logo_result}")
+                if cache_key:
+                    LOGO_CACHE[cache_key] = logo_result
+                return logo_result
+        except Exception as e:
+            print(f"[DEBUG_LOGO] get_dynamic_logo: Errore durante il fallback a Bing per {event_name}: {e}")
 
-    team1 = teams_match.group(1).strip()
-    team2 = teams_match.group(2).strip()
+    # Logo di default statico per tutti gli altri casi
+    print(f"[DEBUG_LOGO] get_dynamic_logo: Nessun logo specifico trovato per '{event_name}', uso logo di default statico.")
+    if cache_key:
+        LOGO_CACHE[cache_key] = LOGO
+    return LOGO
 
-    # Normalize team names by removing non-city or non-team names
-    def normalize_team_name(team_name):
-        # Example normalization logic: remove common non-city/team words
-        words_to_remove = ["calcio", "fc", "club", "united", "city", "ac", "sc", "sport", "team"]
-        normalized_name = ' '.join(word for word in team_name.split() if word.lower() not in words_to_remove)
-        return normalized_name.strip()
-
-    team1_normalized = normalize_team_name(team1)
-    team2_normalized = normalize_team_name(team2)
-
-    # Special case for Bayern München and Internazionale
-    if "bayern" in team1.lower() or "bayern" in team1_normalized.lower():
-        team1_normalized = "Bayern"
-    elif "bayern" in team2.lower() or "bayern" in team2_normalized.lower():
-        team2_normalized = "Bayern"
-
-    if "internazionale" in team1.lower() or "inter" in team1.lower():
-        team1_normalized = "Inter"
-    elif "internazionale" in team2.lower() or "inter" in team2.lower():
-        team2_normalized = "Inter"
-
-    print(f"Squadre normalizzate: '{team1_normalized}' vs '{team2_normalized}'")
-
-    try:
-        # Try skystreaming.{SKYSTR} if not found in cache or local file
-        print(f"Logo non trovato in cache/locale, cercando su skystreaming.{SKYSTR}...")
-
-        # Determina l'URL di skystreaming in base al tipo di evento
-        skystreaming_base_url = f"https://skystreaming.{SKYSTR}/"
-
-        # Seleziona l'URL appropriato in base al tipo di evento
-        if "Italy - Serie A :" in event_name:
-            skystreaming_url = f"{skystreaming_base_url}channel/video/serie-a"
-        elif "La Liga :" in event_name:
-            skystreaming_url = f"{skystreaming_base_url}channel/video/la-liga"
-        elif "Premier League :" in event_name:
-            skystreaming_url = f"{skystreaming_base_url}channel/video/english-premier-league"
-        elif "Bundesliga :" in event_name:
-            skystreaming_url = f"{skystreaming_base_url}channel/video/bundesliga"
-        elif "Ligue 1 :" in event_name:
-            skystreaming_url = f"{skystreaming_base_url}channel/video/ligue-1"
-        elif "Italy - Serie B :" in event_name:
-            skystreaming_url = f"{skystreaming_base_url}channel/video/a-serie-b"
-        elif "Italy - Serie C :" in event_name:
-            skystreaming_url = f"{skystreaming_base_url}channel/video/italia-serie-c"
-        else:
-            skystreaming_url = skystreaming_base_url
-
-        headers_skystreaming = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
-        }
-
-        print(f"Cercando logo per {team1_normalized} vs {team2_normalized} su skystreaming.{SKYSTR}...")
-
-        response = requests.get(skystreaming_url, headers=headers_skystreaming, timeout=10)
-        html_content = response.text
-
-        # Parse with BeautifulSoup
-        soup = BeautifulSoup(html_content, 'html.parser')
-
-        # Cerca span con class="mediabg" e style che contiene l'immagine
-        media_spans = soup.find_all('span', class_='mediabg')
-        print(f"Trovati {len(media_spans)} span con class='mediabg' su skystreaming.{SKYSTR}")
-
-        # Cerca span che contengono i nomi delle squadre nel testo
-        found_match = False
-        for span in media_spans:
-            span_text = span.text.lower()
-            if (team1_normalized.lower() in span_text and team2_normalized.lower() in span_text) or \
-               (team1.lower() in span_text and team2.lower() in span_text):
-                style = span.get('style', '')
-                if 'background-image:url(' in style:
-                    # Estrai l'URL dell'immagine
-                    match = re.search(r'background-image:url\((.*?)\)', style)
-                    if match:
-                        logo_url = match.group(1)
-                        print(f"Trovato logo specifico su {skystreaming_url}: {logo_url}")
-                        if cache_key:
-                            LOGO_CACHE[cache_key] = logo_url
-                        found_match = True
-                        return logo_url
-
-        # Se non abbiamo trovato una corrispondenza esatta, cerchiamo una corrispondenza parziale
-        if not found_match:
-            for span in media_spans:
-                span_text = span.text.lower()
-                if (team1_normalized.lower() in span_text or team2_normalized.lower() in span_text) or \
-                   (team1.lower() in span_text or team2.lower() in span_text):
-                    style = span.get('style', '')
-                    if 'background-image:url(' in style:
-                        # Estrai l'URL dell'immagine
-                        match = re.search(r'background-image:url\((.*?)\)', style)
-                        if match:
-                            logo_url = match.group(1)
-                            print(f"Trovato logo parziale su {skystreaming_url}: {logo_url}")
-                            if cache_key:
-                                LOGO_CACHE[cache_key] = logo_url
-                            return logo_url
-
-        # Se non troviamo nulla nella pagina specifica, proviamo con la homepage come fallback
-        if skystreaming_url != skystreaming_base_url:
-            print(f"Nessun logo trovato nella pagina specifica, cercando nella homepage di skystreaming.{SKYSTR}...")
-
-            response = requests.get(skystreaming_base_url, headers=headers_skystreaming, timeout=10)
-            html_content = response.text
-
-            # Parse with BeautifulSoup
-            soup = BeautifulSoup(html_content, 'html.parser')
-
-            # Cerca span con class="mediabg" e style che contiene l'immagine
-            media_spans = soup.find_all('span', class_='mediabg')
-            print(f"Trovati {len(media_spans)} span con class='mediabg' nella homepage")
-
-            # Cerca span che contengono i nomi delle squadre nel testo
-            for span in media_spans:
-                span_text = span.text.lower()
-                if (team1_normalized.lower() in span_text and team2_normalized.lower() in span_text) or \
-                   (team1.lower() in span_text and team2.lower() in span_text):
-                    style = span.get('style', '')
-                    if 'background-image:url(' in style:
-                        # Estrai l'URL dell'immagine
-                        match = re.search(r'background-image:url\((.*?)\)', style)
-                        if match:
-                            logo_url = match.group(1)
-                            print(f"Trovato logo specifico nella homepage: {logo_url}")
-                            if cache_key:
-                                LOGO_CACHE[cache_key] = logo_url
-                            return logo_url
-
-            # Se non abbiamo trovato una corrispondenza esatta, cerchiamo una corrispondenza parziale
-            for span in media_spans:
-                span_text = span.text.lower()
-                if (team1_normalized.lower() in span_text or team2_normalized.lower() in span_text) or \
-                   (team1.lower() in span_text or team2.lower() in span_text):
-                    style = span.get('style', '')
-                    if 'background-image:url(' in style:
-                        # Estrai l'URL dell'immagine
-                        match = re.search(r'background-image:url\((.*?)\)', style)
-                        if match:
-                            logo_url = match.group(1)
-                            print(f"Trovato logo parziale nella homepage: {logo_url}")
-                            if cache_key:
-                                LOGO_CACHE[cache_key] = logo_url
-                            return logo_url
-
-        # Se non troviamo nulla, usa il logo di default
-        print(f"Nessun logo trovato, uso il logo di default")
-        if cache_key:
-            LOGO_CACHE[cache_key] = LOGO
-        return LOGO
-        # --- Fine logica di scraping web (originale) ---
-
-    except Exception as e:
-        print(f"Error fetching logo for {team1_normalized} vs {team2_normalized}: {e}")
-        import traceback
-        traceback.print_exc()
-        return LOGO
+def normalize_team_name(team_name):
+    words_to_remove = ["calcio", "fc", "club", "united", "city", "ac", "sc", "sport", "team", "ssc", "as", "cf", "uc", "us", "gs", "ss", "rl", "rc"]
+    name_no_punctuation = re.sub(r'[^\w\s]', '', team_name)
+    normalized_name = ' '.join(word for word in name_no_punctuation.split() if word.lower() not in words_to_remove)
+    return normalized_name.strip()
 
 def generate_unique_ids(count, seed=42):
     random.seed(seed)
@@ -379,14 +700,14 @@ def loadJSON(filepath):
 
 def get_stream_link(dlhd_id, event_name="", channel_name="", max_retries=3):
     print(f"Getting stream link for channel ID: {dlhd_id} - {event_name} on {channel_name}...")
-    
+
     # Verifica se è un canale Tennis Stream
     #if channel_name and "Tennis Stream" in channel_name:
     #    print(f"Canale Tennis Stream rilevato, utilizzo link fisso per: {event_name}")
     #    return "https://daddylive.dad/embed/stream-576.php"
-    
+
     # Restituisci direttamente l'URL senza fare richieste HTTP
-    return f"https://daddylive.dad/stream/stream-{dlhd_id}.php"
+    return f"https://thedaddy.click/stream/stream-{dlhd_id}.php"
 
 
 def clean_group_title(sport_key):
@@ -673,7 +994,7 @@ def process_events():
                                 channelName = formatted_date_time + "  " + str(channel)
 
                             # Extract event name for the tvg-id
-                            event_name = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
+                            event_name_short = game["event"].split(":")[0].strip() if ":" in game["event"] else game["event"].strip()
                             event_details = game["event"]  # Keep the full event details for tvg-name
 
                         except Exception as e:
@@ -682,7 +1003,7 @@ def process_events():
                             continue
 
                         # Check if channel should be included based on keywords
-                        if should_include_channel(channelName, event_name, sport_key):
+                        if should_include_channel(channelName, event_details, clean_sport_key):
                             # Process channel information
                             if isinstance(channel, dict) and "channel_id" in channel:
                                 channelID = f"{channel['channel_id']}"
@@ -712,19 +1033,20 @@ def process_events():
                                     tvg_name = f"{time_only} {event_details} - {day_num}/{month_num}/{year_short}"
 
                                     # Get dynamic logo for this event
-                                    event_logo = get_dynamic_logo(game["event"])
+                                    event_logo = get_dynamic_logo(game["event"], clean_sport_key)
 
                                     italian_sport_key = translate_sport_to_italian(clean_sport_key)
-                                    file.write(f'#EXTINF:-1 tvg-id="{event_name} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{event_logo}" group-title="{italian_sport_key}", {channel_name_str}\n')
+                                    file.write(f'#EXTINF:-1 tvg-id="{event_name_short} - {event_details.split(":", 1)[1].strip() if ":" in event_details else event_details}" tvg-name="{tvg_name}" tvg-logo="{event_logo}" group-title="{italian_sport_key}", {channel_name_str}\n')
                                     # New stream URL format
                                     #file.write(f"{PROXY}{MFP}/extractor/video?host=DLHD&redirect_stream=true&api_password={PSW}&d={stream_url_dynamic}\n\n")
-                                    file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
+                                    #file.write(f"{PZPROXY}/proxy/m3u?url={stream_url_dynamic}\n\n")
+                                    file.write(f"{MFP}/proxy/hls/manifest.m3u8?api_password={PSW}&d={stream_url_dynamic}\n\n") 
                                 included_channels_count += 1
 
                             else:
                             # Il log del motivo dell'esclusione è già in should_include_channel
                                 excluded_by_keyword_filter += 1
-                            
+
                         else:
                             print(f"Skipping channel (no keyword match): {clean_group_title(sport_key)} - {event_details} - {channelName}")
 
