@@ -376,8 +376,8 @@ def save_m3u8(channels):
             if tvg_id_modified in SPECIAL_CHANNEL_MAPPING:
                tvg_id_modified = SPECIAL_CHANNEL_MAPPING[tvg_id_modified]
 
-            #proxy_mfp_value = f"{MFP}/proxy/hls/manifest.m3u8?api_password={PSW}&d="
-            proxy_mfp_value = f"{PZPROXY}/proxy/m3u?url="
+            proxy_mfp_value = f"{MFP}/proxy/hls/manifest.m3u8?api_password={PSW}&d="
+            #proxy_mfp_value = f"{PZPROXY}/proxy/m3u?url="
             f.write(f'#EXTINF:-1 tvg-id="{tvg_id_modified}.it" tvg-name="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
             f.write(f"{proxy_mfp_value}{url}{HEADER}\n\n")
 
