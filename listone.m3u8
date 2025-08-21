@@ -63,17 +63,11 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="comedycentral.it" tvg-name="Comedy Central (2)" tvg-logo="" group-title="Sky",COMEDY CENTRAL (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/433893159bf516cde9a97&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="crime+investigation.it" tvg-name="Crime+ Investigation" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" group-title="Discovery",CRIME+ INVESTIGATION (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/30052277008e849440ee94&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="dazn.it" tvg-name="Dazn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DAZN_logo.svg/1024px-DAZN_logo.svg.png" group-title="Sport",DAZN (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2745635299ab0cc043a143&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="dazn1.it" tvg-name="Dazn 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="Sport",DAZN 1 (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/1376440573d46b3d682e20&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="dazn2.it" tvg-name="Dazn 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/882px-DAZN_2.svg.png" group-title="Sport",DAZN 2 (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3635062218e0132c616db&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="deejaytv.it" tvg-name="Deejay Tv" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/deejay-tv-it.png" group-title="Altro",DEEJAY TV (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/963607327f90ada131395&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -270,9 +264,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="raiitalia.it" tvg-name="Rai Italia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Intrattenimento;Rai Tv",RAI ITALIA (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/374675593c812bca5a0f0&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="raiitalia.it" tvg-name="Rai Italia (2)" tvg-logo="" group-title="Intrattenimento;Rai Tv",RAI ITALIA (V) (2)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2944572451ecdb3159250&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="raimovie.it" tvg-name="Rai Movie" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Film;Rai Tv",RAI MOVIE (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2835672487db54f8727bf9&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -318,9 +309,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="raiyoyo.it" tvg-name="Rai Yoyo (2)" tvg-logo="" group-title="Intrattenimento;Rai Tv",RAI YOYO (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/1890950169c0c68782bbe1&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="rakutenactionmovies.it" tvg-name="Rakuten Action Movies" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film;Rakuten",RAKUTEN ACTION MOVIES (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/30648111922089ed4a29cc&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="rakutencomedymovies.it" tvg-name="Rakuten Comedy Movies" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film;Rakuten",RAKUTEN COMEDY MOVIES (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/11093727783b90d83934c6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -343,9 +331,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2251241999722578d55332&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="rete4.it" tvg-name="Rete 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png" group-title="Mediaset",RETE 4 (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/4198218214cee07ebbc292&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="rete4.it" tvg-name="Rete 4 (2)" tvg-logo="" group-title="Mediaset",RETE 4 (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/22357320045f329c720096&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="la1.it" tvg-name="Rsi La 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1200px-RSI_La_1_2012.svg.png" group-title="Altro",RSI LA 1 (V)
@@ -398,9 +383,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 
 #EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="Sky Cinema Due (2)" tvg-logo="" group-title="Film;Sky",SKY CINEMA DUE (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2330574729acc52d969174&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="skycinemadue+24.it" tvg-name="Sky Cinema Due +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Film;Sky",SKY CINEMA DUE +24 (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/1078650168cbe5484d34ad&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="Sky Cinema Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film;Sky",SKY CINEMA FAMILY (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/41579514488d1c92affa7&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -455,9 +437,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 
 #EXTINF:-1 tvg-id="skyprimafila15.it" tvg-name="Sky Primafila 15" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 15 (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/911168573d54b185731b5&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="skyprimafila16.it" tvg-name="Sky Primafila 16" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 16 (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/191150052585174f4ea582&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skyprimafila17.it" tvg-name="Sky Primafila 17" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film;Sky",SKY PRIMAFILA 17 (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/1284441949890c3c5c3d9d&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -543,20 +522,8 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="skysportfootball.it" tvg-name="Sky Sport Football" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/309353533094c3ad269514&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="skysportf1.it" tvg-name="Sky Sport F1 (2)" tvg-logo="" group-title="Sport",SKY SPORT F1 (V) (2)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/42467740561588897497f2&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="skysportfootball.it" tvg-name="Sky Sport Football (2)" tvg-logo="" group-title="Sport",SKY SPORT FOOTBALL (V) (2)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/309353533094c3ad269514&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="skysportfootball.it" tvg-name="Sky Sport Football [live During Events Only]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY] (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/198930923100c09085a1ae&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="Sky Sport Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sport",SKY SPORT GOLF (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/729945219d6146597896a&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="Sky Sport Golf (2)" tvg-logo="" group-title="Sport",SKY SPORT GOLF (V) (2)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3897711086f5655aa4d5fb&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skysportmax.it" tvg-name="Sky Sport Max" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sport",SKY SPORT MAX (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/206632691678b853b73adb&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -595,9 +562,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/55828211836e421b20575&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skytg24.it" tvg-name="Sky Tg 24" tvg-logo="https://play-lh.googleusercontent.com/0RJjBW8_r64dWLAbG7kUVrkESbBr9Ukx30pDI83e5_o1obv2MTC7KSpBAIhhXvJAkXE" group-title="Notizie;Sky",SKY TG 24 (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/33760313550167605877f1&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="skytg24.it" tvg-name="Sky Tg 24 (2)" tvg-logo="" group-title="Notizie;Sky",SKY TG 24 (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3180571288b987548e3fe&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skyuno.it" tvg-name="Sky Uno" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png" group-title="Sky",SKY UNO (V)
@@ -659,9 +623,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 
 #EXTINF:-1 tvg-id="wwechannel.it" tvg-name="Wwe Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8c/WWE_Network_logo.jpeg" group-title="Discovery",WWE CHANNEL (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2989824407cb0184041b08&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="zonadazn.it" tvg-name="Zona Dazn" tvg-logo="https://www.digital-news.it/img/palinsesti/2023/12/1701423631-zona-dazn.webp" group-title="Sport",ZONA DAZN (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/291117845637cc65891f64&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="eurosport1.it" tvg-name="EuroSport 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport", EuroSport 1  (D)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-878.php
@@ -1886,6 +1847,93 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 
 #EXTINF:-1 tvg-id="NWSL - Angel City vs Orlando Pride" tvg-name="04:30 NWSL : Angel City vs Orlando Pride - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", FanDuel Sports Network Florida
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-892.php
+
+#EXTINF:-1 tvg-id="Stadium 17 - Stadium 17" tvg-name="17:00 Stadium 17 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1517.php
+
+#EXTINF:-1 tvg-id="Court 5 - Court 5" tvg-name="17:00 Court 5 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1521.php
+
+#EXTINF:-1 tvg-id="Court 4 - Court 4" tvg-name="17:00 Court 4 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1522.php
+
+#EXTINF:-1 tvg-id="Court 6 - Court 6" tvg-name="17:00 Court 6 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1525.php
+
+#EXTINF:-1 tvg-id="Court 7 - Court 7" tvg-name="17:00 Court 7 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1526.php
+
+#EXTINF:-1 tvg-id="Court 8 - Court 8" tvg-name="17:00 Court 8 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1508.php
+
+#EXTINF:-1 tvg-id="Court 9 - Court 9" tvg-name="17:00 Court 9 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1509.php
+
+#EXTINF:-1 tvg-id="Court 10 - Court 10" tvg-name="17:00 Court 10 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1510.php
+
+#EXTINF:-1 tvg-id="Court 11 - Court 11" tvg-name="17:00 Court 11 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1511.php
+
+#EXTINF:-1 tvg-id="Court 12 - Court 12" tvg-name="17:00 Court 12 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1512.php
+
+#EXTINF:-1 tvg-id="Court 13 - Court 13" tvg-name="17:00 Court 13 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1513.php
+
+#EXTINF:-1 tvg-id="Court 14 - Court 14" tvg-name="17:00 Court 14 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1514.php
+
+#EXTINF:-1 tvg-id="Court 15 - Court 15" tvg-name="17:00 Court 15 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1518.php
+
+#EXTINF:-1 tvg-id="Court 16 - Court 16" tvg-name="17:00 Court 16 - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Us Open - Qualifying", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1519.php
+
+#EXTINF:-1 tvg-id="Korda S. vs Kecmanovic M. - Korda S. vs Kecmanovic M." tvg-name="20:00 Korda S. vs Kecmanovic M. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Atp - Winston Salem", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1507.php
+
+#EXTINF:-1 tvg-id="Munar J. vs Fucsovics M. - Munar J. vs Fucsovics M." tvg-name="22:00 Munar J. vs Fucsovics M. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Atp - Winston Salem", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1507.php
+
+#EXTINF:-1 tvg-id="Medjedovic H. vs Mpetshi Perricard G. - Medjedovic H. vs Mpetshi Perricard G." tvg-name="00:30 Medjedovic H. vs Mpetshi Perricard G. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Atp - Winston Salem", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1507.php
+
+#EXTINF:-1 tvg-id="Bu Y. vs Van De Zandschulp B. - Bu Y. vs Van De Zandschulp B." tvg-name="02:00 Bu Y. vs Van De Zandschulp B. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Atp - Winston Salem", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1507.php
+
+#EXTINF:-1 tvg-id="Gibson T. vs Wang Xin. - Gibson T. vs Wang Xin." tvg-name="17:00 Gibson T. vs Wang Xin. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Cleveland", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="Li A. vs Jovic I. - Li A. vs Jovic I." tvg-name="17:00 Li A. vs Jovic I. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Cleveland", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1502.php
+
+#EXTINF:-1 tvg-id="Sierra S. vs Jacquemot E. - Sierra S. vs Jacquemot E." tvg-name="17:00 Sierra S. vs Jacquemot E. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Cleveland", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1503.php
+
+#EXTINF:-1 tvg-id="Boulter K. vs Golubic V. - Boulter K. vs Golubic V." tvg-name="17:45 Boulter K. vs Golubic V. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Cleveland", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="Sierra or Jacquemot vs Li or Jovic - Sierra or Jacquemot vs Li or Jovic" tvg-name="20:00 Sierra or Jacquemot vs Li or Jovic - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Cleveland", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="Boulter or Golubic vs Gibson or Wang - Boulter or Golubic vs Gibson or Wang" tvg-name="22:00 Boulter or Golubic vs Gibson or Wang - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Cleveland", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="Samsonova L. vs Cirstea S. - Samsonova L. vs Cirstea S." tvg-name="02:00 Samsonova L. vs Cirstea S. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Cleveland", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="Shnaider D. vs Mertens E. - Shnaider D. vs Mertens E." tvg-name="23:00 Shnaider D. vs Mertens E. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Monterrey", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1504.php
+
+#EXTINF:-1 tvg-id="Parks A. vs Sramkova R. - Parks A. vs Sramkova R." tvg-name="01:00 Parks A. vs Sramkova R. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Monterrey", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1504.php
+
+#EXTINF:-1 tvg-id="Noskova L. vs Alexandrova E. - Noskova L. vs Alexandrova E." tvg-name="03:00 Noskova L. vs Alexandrova E. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Monterrey", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1504.php
+
+#EXTINF:-1 tvg-id="Ruzic A. vs Bouzkova M. - Ruzic A. vs Bouzkova M." tvg-name="04:30 Ruzic A. vs Bouzkova M. - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wta - Monterrey", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1504.php
 
 #EXTINF:-1 tvg-id="Winston-Salem-ATP, Cleveland-WTA & Monterrey-WTA Early Rounds - Winston-Salem-ATP, Cleveland-WTA & Monterrey-WTA Early Rounds" tvg-name="17:00 Winston-Salem-ATP, Cleveland-WTA & Monterrey-WTA Early Rounds - 21/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-40.php
