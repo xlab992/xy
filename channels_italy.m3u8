@@ -1,8 +1,5 @@
 #EXTM3U url-tvg="https://github.com/xlab992/xy/raw/branch/main/epg.xml"
 
-#EXTINF:-1 tvg-id="20mediasethd.it" tvg-name="20 Mediaset" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="Intrattenimento;Mediaset",20 MEDIASET (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/12303381856673f2a33deb&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="27twentyseven.it" tvg-name="27 Twenty Seven" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/260px-Twentyseven_logo.svg.png" group-title="Mediaset",27 TWENTY SEVEN (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/6087746837741766a74b3&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -17,9 +14,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 
 #EXTINF:-1 tvg-id="boing.it" tvg-name="Boing (2)" tvg-logo="" group-title="Bambini",BOING (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3022771961a341b55db1c5&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="boingplus.it" tvg-name="Boing Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Boing_Plus_logo_2020.svg/1200px-Boing_Plus_logo_2020.svg.png" group-title="Bambini",BOING PLUS (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3841982646469504c9c5fc&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="canale5.it" tvg-name="Canale 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/canale5-it.png" group-title="Mediaset",CANALE 5 (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/15341618078b08a3db572d&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -58,10 +52,10 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/17686701870faa9fea0a38&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="comedycentral.it" tvg-name="Comedy Central" tvg-logo="https://yt3.googleusercontent.com/FPzu1EWCI54fIh2j9JEp0NOzwoeugjL4sZTQCdoxoQY1U4QHyKx2L3wPSw27IueuZGchIxtKfv8=s900-c-k-c0x00ffffff-no-rj" group-title="Sky",COMEDY CENTRAL (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/365827745096a993ffc066&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="comedycentral.it" tvg-name="Comedy Central (2)" tvg-logo="" group-title="Sky",COMEDY CENTRAL (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/433893159bf516cde9a97&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="crime+investigation.it" tvg-name="Crime+ Investigation" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" group-title="Discovery",CRIME+ INVESTIGATION (V)
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/30052277008e849440ee94&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="dazn.it" tvg-name="Dazn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/DAZN_logo.svg/1024px-DAZN_logo.svg.png" group-title="Sport",DAZN (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2745635299ab0cc043a143&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -186,9 +180,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="mediasetextra.it" tvg-name="Mediaset Extra" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" group-title="Intrattenimento;Mediaset",MEDIASET EXTRA (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/4774665319f73c392df0e&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="mediasetinfinity+1.it" tvg-name="Mediaset Infinity+ 1" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Intrattenimento;Mediaset",MEDIASET INFINITY+ 1 (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3599959739ed5ed2f1f0cd&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="mediasetinfinity+2.it" tvg-name="Mediaset Infinity+ 2" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Intrattenimento;Mediaset",MEDIASET INFINITY+ 2 (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2436070507988d651c6548&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -309,6 +300,9 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="raiyoyo.it" tvg-name="Rai Yoyo (2)" tvg-logo="" group-title="Intrattenimento;Rai Tv",RAI YOYO (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/1890950169c0c68782bbe1&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
+#EXTINF:-1 tvg-id="rakutenactionmovies.it" tvg-name="Rakuten Action Movies" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film;Rakuten",RAKUTEN ACTION MOVIES (V)
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/30648111922089ed4a29cc&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
 #EXTINF:-1 tvg-id="rakutencomedymovies.it" tvg-name="Rakuten Comedy Movies" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film;Rakuten",RAKUTEN COMEDY MOVIES (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/11093727783b90d83934c6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -317,12 +311,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 
 #EXTINF:-1 tvg-id="rakutenfamily.it" tvg-name="Rakuten Family" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Rakuten",RAKUTEN FAMILY (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3902650955a82543dc27a4&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="rakutentopfree.it" tvg-name="Rakuten Top Free" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Rakuten",RAKUTEN TOP FREE (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/1572866962efea4ca22353&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="rakutentvshows.it" tvg-name="Rakuten Tv Shows" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Rakuten",RAKUTEN TV SHOWS (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/860912269147f85ae7a8&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="realtime.it" tvg-name="Real Time" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" group-title="Intrattenimento;Discovery",REAL TIME (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/157497519660249c278f94&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -383,6 +371,9 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 
 #EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="Sky Cinema Due (2)" tvg-logo="" group-title="Film;Sky",SKY CINEMA DUE (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2330574729acc52d969174&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="skycinemadue+24.it" tvg-name="Sky Cinema Due +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Film;Sky",SKY CINEMA DUE +24 (V)
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/1078650168cbe5484d34ad&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="Sky Cinema Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film;Sky",SKY CINEMA FAMILY (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/41579514488d1c92affa7&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -507,9 +498,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3007400791d5bc640207c3&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
-#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena (2)" tvg-logo="" group-title="Sport",SKY SPORT ARENA (V) (2)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/25559607139e6fd9b93dd6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/1665920101d5db640ce7e6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -525,6 +513,12 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="skysportfootball.it" tvg-name="Sky Sport Football [live During Events Only]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY] (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/198930923100c09085a1ae&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
+#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="Sky Sport Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sport",SKY SPORT GOLF (V)
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/729945219d6146597896a&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="Sky Sport Golf (2)" tvg-logo="" group-title="Sport",SKY SPORT GOLF (V) (2)
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3897711086f5655aa4d5fb&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
 #EXTINF:-1 tvg-id="skysportmax.it" tvg-name="Sky Sport Max" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sport",SKY SPORT MAX (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/206632691678b853b73adb&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
@@ -539,9 +533,6 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-name="Sky Sport Nba (2)" tvg-logo="" group-title="Sport",SKY SPORT NBA (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3268253262aec282eb346&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
-
-#EXTINF:-1 tvg-id="skysportseriea.it" tvg-name="Sky Sport Serie A" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sport",SKY SPORT SERIE A (V)
-https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/2077387085cfe0f64122dc&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SPORT TENNIS (V)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/210077178262e76f204fa6&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
@@ -562,6 +553,9 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/55828211836e421b20575&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skytg24.it" tvg-name="Sky Tg 24" tvg-logo="https://play-lh.googleusercontent.com/0RJjBW8_r64dWLAbG7kUVrkESbBr9Ukx30pDI83e5_o1obv2MTC7KSpBAIhhXvJAkXE" group-title="Notizie;Sky",SKY TG 24 (V)
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/33760313550167605877f1&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
+
+#EXTINF:-1 tvg-id="skytg24.it" tvg-name="Sky Tg 24 (2)" tvg-logo="" group-title="Notizie;Sky",SKY TG 24 (V) (2)
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://vavoo.to/vavoo-iptv/play/3180571288b987548e3fe&h_user-agent=VAVOO/2.6&h_referer=https://vavoo.to/
 
 #EXTINF:-1 tvg-id="skyuno.it" tvg-name="Sky Uno" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png" group-title="Sky",SKY UNO (V)
