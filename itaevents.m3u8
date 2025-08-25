@@ -2918,3 +2918,1164 @@ https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=htt
 #EXTINF:-1 tvg-id="World Championship Women - Thailand vs Sweden" tvg-name="15:30 World Championship Women : Thailand vs Sweden - 24/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", svt2 Sweden
 https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-154.php
 
+#EXTINF:-1 tvg-id="China - Super League - Beijing Guoan vs Wuhan Three Towns" tvg-name="14:00 China - Super League : Beijing Guoan vs Wuhan Three Towns - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", GOL PLAY ES
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-530.php
+
+#EXTINF:-1 tvg-id="Premier League 2 - Liverpool U21 vs Burnley U21" tvg-name="15:00 Premier League 2 : Liverpool U21 vs Burnley U21 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", LFCTV
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-826.php
+
+#EXTINF:-1 tvg-id="Russia - FNL - Ural vs Volga Ulyanovsk" tvg-name="16:00 Russia - FNL : Ural vs Volga Ulyanovsk - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Match Premier Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-573.php
+
+#EXTINF:-1 tvg-id="Latvia - Virsliga - Liepāja vs Super Nova" tvg-name="16:30 Latvia - Virsliga : Liepāja vs Super Nova - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV4 Latvia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1.php
+
+#EXTINF:-1 tvg-id="Azerbaijan - Premier Liqa - Qabala vs Zira" tvg-name="17:00 Azerbaijan - Premier Liqa : Qabala vs Zira - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", CBC Sport Azerbaijan
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-2.php
+
+#EXTINF:-1 tvg-id="Serbia - Prva Liga - Zemun vs Graficar Beograd" tvg-name="17:00 Serbia - Prva Liga : Zemun vs Graficar Beograd - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 5 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-3.php
+
+#EXTINF:-1 tvg-id="Bulgaria - Parva Liga - Slavia Sofia vs Arda" tvg-name="18:00 Bulgaria - Parva Liga : Slavia Sofia vs Arda - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Diema Sport Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-465.php
+
+#EXTINF:-1 tvg-id="Bulgaria - Parva Liga - Slavia Sofia vs Arda" tvg-name="18:00 Bulgaria - Parva Liga : Slavia Sofia vs Arda - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport Klub 4 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-104.php
+
+#EXTINF:-1 tvg-id="Romania - Liga I - Hermannstadt vs Farul Constanța" tvg-name="18:00 Romania - Liga I : Hermannstadt vs Farul Constanța - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Digi Sport 1 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-400.php
+
+#EXTINF:-1 tvg-id="Romania - Liga I - Hermannstadt vs Farul Constanța" tvg-name="18:00 Romania - Liga I : Hermannstadt vs Farul Constanța - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Prima Sport 1 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-583.php
+
+#EXTINF:-1 tvg-id="Romania - Liga I - Hermannstadt vs Farul Constanța" tvg-name="18:00 Romania - Liga I : Hermannstadt vs Farul Constanța - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena Sport 2 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-433.php
+
+#EXTINF:-1 tvg-id="Turkey - Super Lig - Eyüpspor vs Alanyaspor" tvg-name="18:00 Turkey - Super Lig : Eyüpspor vs Alanyaspor - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 1 Turkey
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-62.php
+
+#EXTINF:-1 tvg-id="Lithuanian League - Siauliai vs Suduva" tvg-name="18:00 Lithuanian League : Siauliai vs Suduva - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport Klub 2 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-102.php
+
+#EXTINF:-1 tvg-id="Russia - FNL - Rotor Volgograd vs Torpedo Moskva" tvg-name="18:30 Russia - FNL : Rotor Volgograd vs Torpedo Moskva - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Match Premier Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-573.php
+
+#EXTINF:-1 tvg-id="Russia - FNL - Rotor Volgograd vs Torpedo Moskva" tvg-name="18:30 Russia - FNL : Rotor Volgograd vs Torpedo Moskva - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MATCH TV Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-127.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN Zona IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-877.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN2 DE
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-427.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport TV2 Portugal
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-74.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Eleven Sports 1 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-71.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Astro Football
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-124.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", FOX Deportes USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-643.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Digi Sport 3 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-402.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Prima Sport 3 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-585.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 2 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-135.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MATCH! Futbol 1 Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-136.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Cytavision Sports 4 Cyprus
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-914.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Cosmote Sport 3 Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-624.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena Sport 4 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-580.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MAX Sport 3 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-474.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV4 Fotball
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-747.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN3 Brazil
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-83.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", SuperSport Football
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-56.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Udinese vs Hellas Verona" tvg-name="18:30 Italy - Serie A : Udinese vs Hellas Verona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport 4 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-143.php
+
+#EXTINF:-1 tvg-id="Greece - Super League - Levadiakos vs Kifisia" tvg-name="18:30 Greece - Super League : Levadiakos vs Kifisia - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Nova Sports 2 Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-632.php
+
+#EXTINF:-1 tvg-id="Greece - Super League - Levadiakos vs Kifisia" tvg-name="18:30 Greece - Super League : Levadiakos vs Kifisia - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport Klub HD Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-453.php
+
+#EXTINF:-1 tvg-id="Israel - Liga Leumit - Kafr Qasim vs Hapoel Hadera" tvg-name="18:30 Israel - Liga Leumit : Kafr Qasim vs Hapoel Hadera - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", 5 STARS Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-147.php
+
+#EXTINF:-1 tvg-id="Israel - Liga Leumit - Hapoel Kfar Shalem vs Maccabi Petah Tikva" tvg-name="18:30 Israel - Liga Leumit : Hapoel Kfar Shalem vs Maccabi Petah Tikva - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", 5 SPORT Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-144.php
+
+#EXTINF:-1 tvg-id="Israel - Liga Leumit - Maccabi Herzliya vs Hapoel Ramat HaSharon" tvg-name="18:30 Israel - Liga Leumit : Maccabi Herzliya vs Hapoel Ramat HaSharon - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", 5 LIVE Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-146.php
+
+#EXTINF:-1 tvg-id="Norway - Eliteserien - Sarpsborg 08 vs Kristiansund" tvg-name="19:00 Norway - Eliteserien : Sarpsborg 08 vs Kristiansund - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV2 Sport Norway
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-4.php
+
+#EXTINF:-1 tvg-id="Sweden Allsvenskan - GAIS vs Mjällby AIF" tvg-name="19:00 Sweden Allsvenskan : GAIS vs Mjällby AIF - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Max Extra 1 Sweden
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-5.php
+
+#EXTINF:-1 tvg-id="Sweden Allsvenskan - Oster vs IFK Norrköping" tvg-name="19:00 Sweden Allsvenskan : Oster vs IFK Norrköping - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Max Extra 2 Sweden
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-6.php
+
+#EXTINF:-1 tvg-id="Sweden Superettan - Falkenberg vs Sandviken" tvg-name="19:00 Sweden Superettan : Falkenberg vs Sandviken - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Max Extra 3 Sweden
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-7.php
+
+#EXTINF:-1 tvg-id="Sweden Superettan - GIF Sundsvall vs Oddevold" tvg-name="19:00 Sweden Superettan : GIF Sundsvall vs Oddevold - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Max Extra 4 Sweden
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-8.php
+
+#EXTINF:-1 tvg-id="Sweden Superettan - Trelleborg vs Landskrona" tvg-name="19:00 Sweden Superettan : Trelleborg vs Landskrona - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Max Extra 5 Sweden
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-9.php
+
+#EXTINF:-1 tvg-id="Sweden Superettan - Orebro vs Umeå" tvg-name="19:00 Sweden Superettan : Orebro vs Umeå - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Max Extra 6 Sweden
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-10.php
+
+#EXTINF:-1 tvg-id="Poland - I Liga - Tychy 71 vs Stal Mielec" tvg-name="19:00 Poland - I Liga : Tychy 71 vs Stal Mielec - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TVP Sport Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-128.php
+
+#EXTINF:-1 tvg-id="Portugal - Segunda liga - Lusitania FC Lourosa vs Benfica II" tvg-name="19:00 Portugal - Segunda liga : Lusitania FC Lourosa vs Benfica II - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport TV+ Portugal
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-11.php
+
+#EXTINF:-1 tvg-id="Portugal - Segunda liga - Lusitania FC Lourosa vs Benfica II" tvg-name="19:00 Portugal - Segunda liga : Lusitania FC Lourosa vs Benfica II - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport TV6 Portugal
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-291.php
+
+#EXTINF:-1 tvg-id="Israeli Ligat ha'Al - Bnei Sakhnin vs Beitar Jerusalem" tvg-name="19:00 Israeli Ligat ha'Al : Bnei Sakhnin vs Beitar Jerusalem - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport 1 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-140.php
+
+#EXTINF:-1 tvg-id="Poland - Ekstraklasa - Wisła Płock vs Zagłębie Lubin" tvg-name="19:00 Poland - Ekstraklasa : Wisła Płock vs Zagłębie Lubin - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Canal+ Sport 3 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-259.php
+
+#EXTINF:-1 tvg-id="Poland - Ekstraklasa - Wisła Płock vs Zagłębie Lubin" tvg-name="19:00 Poland - Ekstraklasa : Wisła Płock vs Zagłębie Lubin - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Canal+ Sport 5 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-75.php
+
+#EXTINF:-1 tvg-id="Poland - Ekstraklasa - Wisła Płock vs Zagłębie Lubin" tvg-name="19:00 Poland - Ekstraklasa : Wisła Płock vs Zagłębie Lubin - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN SPORTS USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-425.php
+
+#EXTINF:-1 tvg-id="Poland - Ekstraklasa - Wisła Płock vs Zagłębie Lubin" tvg-name="19:00 Poland - Ekstraklasa : Wisła Płock vs Zagłębie Lubin - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN SPORTS en Español
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-372.php
+
+#EXTINF:-1 tvg-id="Poland - Ekstraklasa - Wisła Płock vs Zagłębie Lubin" tvg-name="19:00 Poland - Ekstraklasa : Wisła Płock vs Zagłębie Lubin - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 4 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-12.php
+
+#EXTINF:-1 tvg-id="Denmark - Super Liga - Nordsjælland vs Viborg" tvg-name="19:00 Denmark - Super Liga : Nordsjælland vs Viborg - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV2 Sport X Denmark
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-808.php
+
+#EXTINF:-1 tvg-id="Denmark - Super Liga - Nordsjælland vs Viborg" tvg-name="19:00 Denmark - Super Liga : Nordsjælland vs Viborg - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 5 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-3.php
+
+#EXTINF:-1 tvg-id="Denmark - Super Liga - Nordsjælland vs Viborg" tvg-name="19:00 Denmark - Super Liga : Nordsjælland vs Viborg - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport Klub 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-101.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", M+ LALIGA TV
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-84.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", LaLigaTV UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-276.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Viaplay Sports 1 UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-451.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Premier Sports 1 Ireland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-771.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN1 DE
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-426.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Eleven Sports 3 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-428.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 2 France
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-117.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Ziggo Sport 2 NL
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-398.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN Deportes
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-375.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Digi Sport 2 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-401.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Prima Sport 2 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-584.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 1 Malaysia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-712.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MATCH! Futbol 2 Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-137.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 3 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-139.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Nova Sports 1 Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-631.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV4 Sport Live 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-703.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MAX Sport 2 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-473.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", SuperSport Laliga
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-415.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN4 Brasil
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-85.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", SuperSport MaXimo 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-572.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Athletic Club vs Rayo Vallecano" tvg-name="19:30 Spain - La Liga : Athletic Club vs Rayo Vallecano - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports MENA 3
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-93.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Albacete vs Racing Santander" tvg-name="19:30 Spain - Segunda Division : Albacete vs Racing Santander - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", LALIGA TV Hypermotion
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-539.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Albacete vs Racing Santander" tvg-name="19:30 Spain - Segunda Division : Albacete vs Racing Santander - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Nova Sport 3 CZ
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1023.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Albacete vs Racing Santander" tvg-name="19:30 Spain - Segunda Division : Albacete vs Racing Santander - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 3 Malaysia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-714.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Albacete vs Racing Santander" tvg-name="19:30 Spain - Segunda Division : Albacete vs Racing Santander - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Nova Sports Start Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-637.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Albacete vs Racing Santander" tvg-name="19:30 Spain - Segunda Division : Albacete vs Racing Santander - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 4 MAX France
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-494.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Albacete vs Racing Santander" tvg-name="19:30 Spain - Segunda Division : Albacete vs Racing Santander - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena Sport 2 Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-430.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Albacete vs Racing Santander" tvg-name="19:30 Spain - Segunda Division : Albacete vs Racing Santander - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV4 Sportkanalen
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-707.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Albacete vs Racing Santander" tvg-name="19:30 Spain - Segunda Division : Albacete vs Racing Santander - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MAX Sport 1 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-472.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Deportivo Riestra vs Sarmiento" tvg-name="20:00 Argentina - Primera División : Deportivo Riestra vs Sarmiento - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TNT Sports Argentina
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-388.php
+
+#EXTINF:-1 tvg-id="Hungarian NB 2 - Vasas vs Tiszakécske" tvg-name="20:00 Hungarian NB 2 : Vasas vs Tiszakécske - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", M4 Sport Hungary
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-265.php
+
+#EXTINF:-1 tvg-id="Switzerland - Challenge League - Neuchâtel Xamax vs Vaduz" tvg-name="20:15 Switzerland - Challenge League : Neuchâtel Xamax vs Vaduz - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Blue Sport D 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1.php
+
+#EXTINF:-1 tvg-id="Switzerland - Challenge League - Aarau vs Stade Lausanne-Ouchy" tvg-name="20:15 Switzerland - Challenge League : Aarau vs Stade Lausanne-Ouchy - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Blue Sport 1 Live
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-2.php
+
+#EXTINF:-1 tvg-id="Bulgaria - Parva Liga - Beroe vs Ludogorets" tvg-name="20:15 Bulgaria - Parva Liga : Beroe vs Ludogorets - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Diema Sport Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-465.php
+
+#EXTINF:-1 tvg-id="Turkey - 1. Lig - İstanbulspor vs Manisa BBSK" tvg-name="20:30 Turkey - 1. Lig : İstanbulspor vs Manisa BBSK - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TRT Spor Turkey
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-889.php
+
+#EXTINF:-1 tvg-id="Turkey - 1. Lig - İstanbulspor vs Manisa BBSK" tvg-name="20:30 Turkey - 1. Lig : İstanbulspor vs Manisa BBSK - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 2 Turkey
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-63.php
+
+#EXTINF:-1 tvg-id="Italy - Serie B - Sampdoria vs Modena" tvg-name="20:30 Italy - Serie B : Sampdoria vs Modena - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN Italia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-23.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport 251 IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-871.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport Calcio IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-870.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", CBS Sports Network USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-308.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN2 DE
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-427.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport TV2 Portugal
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-74.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Polsat Sport 1 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-47.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Eleven Sports 1 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-71.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Astro Football
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-124.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Digi Sport 1 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-400.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Prima Sport 1 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-583.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Cytavision Sports 4 Cyprus
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-914.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Ziggo Sport 3 NL
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-919.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MATCH! Futbol 1 Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-136.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MATCH TV Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-127.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 2 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-135.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", FOX Deportes USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-643.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Cosmote Sport 2 Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-623.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena Sport 4 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-580.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV4 Fotball
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-747.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MAX Sport 3 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-474.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN3 Argentina
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-798.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", SuperSport Football
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-56.php
+
+#EXTINF:-1 tvg-id="Italy - Serie A - Internazionale vs Torino" tvg-name="20:45 Italy - Serie A : Internazionale vs Torino - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport 4 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-143.php
+
+#EXTINF:-1 tvg-id="France - Ligue 2 - Pau vs Reims" tvg-name="20:45 France - Ligue 2 : Pau vs Reims - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 1 France
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-116.php
+
+#EXTINF:-1 tvg-id="France - Ligue 2 - Pau vs Reims" tvg-name="20:45 France - Ligue 2 : Pau vs Reims - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports MENA 4
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-94.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Hub Premier 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-13.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", USA Network
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-343.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", NBC UNIVERSO USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-845.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sports Main Event UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-38.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sports Premier League UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-130.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport 8 NZ
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-595.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN 1 Spain
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-445.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Canal+ Sport CZ
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1020.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 3 Turkey
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-64.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport Premier League DE
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-14.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport Top Event DE
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-556.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN Eleven 1 Portugal
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-455.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Canal+ Foot France
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-463.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Canal+ Extra 1 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-15.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport 254 IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-874.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Canal+ Sport 3 Afrique
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-488.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Cytavision Sports 3 Cyprus
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-913.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Astro Premier League
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-125.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Astro Grandstand
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-123.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 1 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-134.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Nova Sports Prime Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-638.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Nova Sports Premier League Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-599.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV3+ HD Denmark
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-819.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena Sport 3 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-434.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", V Sport Premium
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-16.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Diema Sport 2 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-466.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", SuperSport Premier League
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-414.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports MENA 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-91.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports MENA English 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-61.php
+
+#EXTINF:-1 tvg-id="England - Premier League - Newcastle United vs Liverpool" tvg-name="21:00 England - Premier League : Newcastle United vs Liverpool - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport 2 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-141.php
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Novara vs Inter II" tvg-name="20:30 Italy - Serie C : Novara vs Inter II - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport 255 IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-18.php
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Novara vs Inter II" tvg-name="20:30 Italy - Serie C : Novara vs Inter II - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Rai Sport Italy
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-882.php
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Salernitana vs Siracusa" tvg-name="21:00 Italy - Serie C : Salernitana vs Siracusa - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport 257 IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-19.php
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Crotone vs Benevento" tvg-name="21:00 Italy - Serie C : Crotone vs Benevento - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport 256 IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-20.php
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Casertana vs Team Altamura" tvg-name="21:00 Italy - Serie C : Casertana vs Team Altamura - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport 259 IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-21.php
+
+#EXTINF:-1 tvg-id="Italy - Serie C - Audace Cerignola vs Picerno" tvg-name="21:00 Italy - Serie C : Audace Cerignola vs Picerno - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sky Sport 258 IT
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-22.php
+
+#EXTINF:-1 tvg-id="Portugal - Primeira Liga - Estrela vs Alverca" tvg-name="21:15 Portugal - Primeira Liga : Estrela vs Alverca - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport TV1 Portugal
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-49.php
+
+#EXTINF:-1 tvg-id="Portugal - Primeira Liga - Estrela vs Alverca" tvg-name="21:15 Portugal - Primeira Liga : Estrela vs Alverca - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Diema Sport 2 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-466.php
+
+#EXTINF:-1 tvg-id="Portugal - Primeira Liga - Estrela vs Alverca" tvg-name="21:15 Portugal - Primeira Liga : Estrela vs Alverca - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport Klub 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-101.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN LaLiga
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-538.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", LaLigaTV UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-276.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Viaplay Sports 1 UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-451.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Premier Sports 1 Ireland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-771.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", DAZN1 DE
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-426.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Eleven Sports 4 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-17.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 3 France
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-118.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN Deportes
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-375.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Ziggo Sport 4 NL
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-396.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Ziggo Sport 2 NL
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-398.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Digi Sport 2 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-401.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Prima Sport 2 Romania
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-584.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports 1 Malaysia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-712.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Cytavision Sports 7 Cyprus
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-917.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MATCH! Futbol 3 Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-138.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 3 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-139.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Nova Sports 2 Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-632.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena Sport 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-432.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TV4 Sport Live 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-703.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MAX Sport 4 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-475.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", SuperSport Laliga
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-415.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", SuperSport MaXimo 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-572.php
+
+#EXTINF:-1 tvg-id="Spain - La Liga - Sevilla vs Getafe" tvg-name="21:30 Spain - La Liga : Sevilla vs Getafe - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports MENA 3
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-93.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Córdoba vs Las Palmas" tvg-name="21:30 Spain - Segunda Division : Córdoba vs Las Palmas - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", LALIGA TV Hypermotion
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-539.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Córdoba vs Las Palmas" tvg-name="21:30 Spain - Segunda Division : Córdoba vs Las Palmas - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", GOL PLAY ES
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-530.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Córdoba vs Las Palmas" tvg-name="21:30 Spain - Segunda Division : Córdoba vs Las Palmas - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", MATCH! Futbol 2 Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-137.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Córdoba vs Las Palmas" tvg-name="21:30 Spain - Segunda Division : Córdoba vs Las Palmas - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Nova Sports Start Greece
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-637.php
+
+#EXTINF:-1 tvg-id="Spain - Segunda Division - Córdoba vs Las Palmas" tvg-name="21:30 Spain - Segunda Division : Córdoba vs Las Palmas - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", beIN Sports MENA 5
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-95.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Godoy Cruz vs Vélez Sarsfield" tvg-name="22:00 Argentina - Primera División : Godoy Cruz vs Vélez Sarsfield - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN Premium Argentina
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-387.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Godoy Cruz vs Vélez Sarsfield" tvg-name="22:00 Argentina - Primera División : Godoy Cruz vs Vélez Sarsfield - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN Argentina
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-149.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Belgrano vs Central Córdoba SdE" tvg-name="00:00 Argentina - Primera División : Belgrano vs Central Córdoba SdE - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN Premium Argentina
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-387.php
+
+#EXTINF:-1 tvg-id="Brazil - Serie B - Botafogo SP vs Vila Nova" tvg-name="00:00 Brazil - Serie B : Botafogo SP vs Vila Nova - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN BR
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-81.php
+
+#EXTINF:-1 tvg-id="Brazil - Brasileirão - Palmeiras vs Sport Recife" tvg-name="00:00 Brazil - Brasileirão : Palmeiras vs Sport Recife - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Premiere BR
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-15.php
+
+#EXTINF:-1 tvg-id="Brazil - Brasileirão - Palmeiras vs Sport Recife" tvg-name="00:00 Brazil - Brasileirão : Palmeiras vs Sport Recife - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", M+ #Vamos ES
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-521.php
+
+#EXTINF:-1 tvg-id="Brazil - Brasileirão - Palmeiras vs Sport Recife" tvg-name="00:00 Brazil - Brasileirão : Palmeiras vs Sport Recife - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Match! Football 3 Russia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-138.php
+
+#EXTINF:-1 tvg-id="Brazil - Brasileirão - Palmeiras vs Sport Recife" tvg-name="00:00 Brazil - Brasileirão : Palmeiras vs Sport Recife - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport 3 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-142.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Estudiantes vs Aldosivi" tvg-name="00:15 Argentina - Primera División : Estudiantes vs Aldosivi - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", TNT Sports Argentina
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-388.php
+
+#EXTINF:-1 tvg-id="Colombia - Primera A - Boyacá Chicó vs Deportivo Cali" tvg-name="01:00 Colombia - Primera A : Boyacá Chicó vs Deportivo Cali - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Win+ Futbol Colombia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-392.php
+
+#EXTINF:-1 tvg-id="United States - NCAA Men's Soccer - Pittsburgh vs Michigan St." tvg-name="01:00 United States - NCAA Men's Soccer : Pittsburgh vs Michigan St. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ACC Network USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-664.php
+
+#EXTINF:-1 tvg-id="Brazil - Brasileirão - Flamengo vs Vitória" tvg-name="02:00 Brazil - Brasileirão : Flamengo vs Vitória - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sportv Brazil
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-78.php
+
+#EXTINF:-1 tvg-id="Brazil - Brasileirão - Flamengo vs Vitória" tvg-name="02:00 Brazil - Brasileirão : Flamengo vs Vitória - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Premiere BR
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-88.php
+
+#EXTINF:-1 tvg-id="Brazil - Série A - Flamengo RJ vs Vitoria" tvg-name="02:00 Brazil - Série A : Flamengo RJ vs Vitoria - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Viaplay Sports 2 UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-550.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Lanús vs River Plate" tvg-name="02:15 Argentina - Primera División : Lanús vs River Plate - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN Premium Argentina
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-387.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Lanús vs River Plate" tvg-name="02:15 Argentina - Primera División : Lanús vs River Plate - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Viaplay Sports 1 UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-451.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Lanús vs River Plate" tvg-name="02:15 Argentina - Primera División : Lanús vs River Plate - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Premier Sports 1 Ireland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-771.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Lanús vs River Plate" tvg-name="02:15 Argentina - Primera División : Lanús vs River Plate - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport TV1 Portugal
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-49.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Lanús vs River Plate" tvg-name="02:15 Argentina - Primera División : Lanús vs River Plate - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena 1 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-134.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Lanús vs River Plate" tvg-name="02:15 Argentina - Primera División : Lanús vs River Plate - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Arena Sport 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-432.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Lanús vs River Plate" tvg-name="02:15 Argentina - Primera División : Lanús vs River Plate - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", ESPN4 Brasil
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-85.php
+
+#EXTINF:-1 tvg-id="Argentina - Primera División - Lanús vs River Plate" tvg-name="02:15 Argentina - Primera División : Lanús vs River Plate - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", Sport 3 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-142.php
+
+#EXTINF:-1 tvg-id="Liga MX Femenil - Juárez vs Mazatlán" tvg-name="05:00 Liga MX Femenil : Juárez vs Mazatlán - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio", FOX Deportes USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-643.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Baez S. vs Harris L." tvg-name="17:00 ATP - US OPEN : Baez S. vs Harris L. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1507.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Baez S. vs Harris L." tvg-name="17:00 ATP - US OPEN : Baez S. vs Harris L. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1527.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Bergs Z. vs Tseng C. H." tvg-name="17:00 ATP - US OPEN : Bergs Z. vs Tseng C. H. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1515.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Bergs Z. vs Tseng C. H." tvg-name="17:00 ATP - US OPEN : Bergs Z. vs Tseng C. H. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1535.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Damm M. vs Blanch Dar." tvg-name="17:00 ATP - US OPEN : Damm M. vs Blanch Dar. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1511.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Damm M. vs Blanch Dar." tvg-name="17:00 ATP - US OPEN : Damm M. vs Blanch Dar. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1531.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Humbert U. vs Walton A." tvg-name="18:00 ATP - US OPEN : Humbert U. vs Walton A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1510.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Humbert U. vs Walton A." tvg-name="18:00 ATP - US OPEN : Humbert U. vs Walton A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1530.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Kovacevic A. vs Wong C." tvg-name="18:30 ATP - US OPEN : Kovacevic A. vs Wong C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1513.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Kovacevic A. vs Wong C." tvg-name="18:30 ATP - US OPEN : Kovacevic A. vs Wong C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1533.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Norrie C. vs Korda S." tvg-name="18:30 ATP - US OPEN : Norrie C. vs Korda S. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1517.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Norrie C. vs Korda S." tvg-name="18:30 ATP - US OPEN : Norrie C. vs Korda S. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1537.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Fonseca J. vs Kecmanovic M." tvg-name="18:30 ATP - US OPEN : Fonseca J. vs Kecmanovic M. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1503.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Fonseca J. vs Kecmanovic M." tvg-name="18:30 ATP - US OPEN : Fonseca J. vs Kecmanovic M. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1523.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Gomez F. A. vs Draper J." tvg-name="18:30 ATP - US OPEN : Gomez F. A. vs Draper J. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1502.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Gomez F. A. vs Draper J." tvg-name="18:30 ATP - US OPEN : Gomez F. A. vs Draper J. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1522.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Bellucci M. vs Shang J." tvg-name="19:00 ATP - US OPEN : Bellucci M. vs Shang J. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1510.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Bellucci M. vs Shang J." tvg-name="19:00 ATP - US OPEN : Bellucci M. vs Shang J. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1530.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Comesana F. vs Michelsen A." tvg-name="19:00 ATP - US OPEN : Comesana F. vs Michelsen A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1507.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Comesana F. vs Michelsen A." tvg-name="19:00 ATP - US OPEN : Comesana F. vs Michelsen A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1527.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Galan D. E. vs Collignon R." tvg-name="19:00 ATP - US OPEN : Galan D. E. vs Collignon R. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1515.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Galan D. E. vs Collignon R." tvg-name="19:00 ATP - US OPEN : Galan D. E. vs Collignon R. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1535.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Tiafoe F. vs Nishioka Y." tvg-name="19:00 ATP - US OPEN : Tiafoe F. vs Nishioka Y. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Tiafoe F. vs Nishioka Y." tvg-name="19:00 ATP - US OPEN : Tiafoe F. vs Nishioka Y. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1521.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Duckworth J. vs Boyer T." tvg-name="20:00 ATP - US OPEN : Duckworth J. vs Boyer T. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1506.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Duckworth J. vs Boyer T." tvg-name="20:00 ATP - US OPEN : Duckworth J. vs Boyer T. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1526.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Munar J. vs Faria J." tvg-name="20:00 ATP - US OPEN : Munar J. vs Faria J. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1509.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Munar J. vs Faria J." tvg-name="20:00 ATP - US OPEN : Munar J. vs Faria J. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1529.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Passaro F. vs Cobolli F." tvg-name="20:00 ATP - US OPEN : Passaro F. vs Cobolli F. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1505.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Passaro F. vs Cobolli F." tvg-name="20:00 ATP - US OPEN : Passaro F. vs Cobolli F. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1525.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Struff J-L. vs McDonald M." tvg-name="20:00 ATP - US OPEN : Struff J-L. vs McDonald M. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1512.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Struff J-L. vs McDonald M." tvg-name="20:00 ATP - US OPEN : Struff J-L. vs McDonald M. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1532.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Brooksby J. vs Vukic A." tvg-name="20:30 ATP - US OPEN : Brooksby J. vs Vukic A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1511.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Brooksby J. vs Vukic A." tvg-name="20:30 ATP - US OPEN : Brooksby J. vs Vukic A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1531.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Dellien H. vs Majchrzak K." tvg-name="20:30 ATP - US OPEN : Dellien H. vs Majchrzak K. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1513.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Dellien H. vs Majchrzak K." tvg-name="20:30 ATP - US OPEN : Dellien H. vs Majchrzak K. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1533.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Van De Zandschulp B. vs Rune H." tvg-name="21:00 ATP - US OPEN : Van De Zandschulp B. vs Rune H. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1503.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Van De Zandschulp B. vs Rune H." tvg-name="21:00 ATP - US OPEN : Van De Zandschulp B. vs Rune H. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1523.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Diallo G. vs Dzumhur D." tvg-name="22:00 ATP - US OPEN : Diallo G. vs Dzumhur D. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1512.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Diallo G. vs Dzumhur D." tvg-name="22:00 ATP - US OPEN : Diallo G. vs Dzumhur D. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1532.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Prizmic D. vs Rublev A." tvg-name="22:00 ATP - US OPEN : Prizmic D. vs Rublev A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1505.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Prizmic D. vs Rublev A." tvg-name="22:00 ATP - US OPEN : Prizmic D. vs Rublev A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1525.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Khachanov K. vs Basavareddy N." tvg-name="23:00 ATP - US OPEN : Khachanov K. vs Basavareddy N. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1517.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Khachanov K. vs Basavareddy N." tvg-name="23:00 ATP - US OPEN : Khachanov K. vs Basavareddy N. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1537.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Ofner S. vs Ruud C." tvg-name="01:00 ATP - US OPEN : Ofner S. vs Ruud C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1502.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Ofner S. vs Ruud C." tvg-name="01:00 ATP - US OPEN : Ofner S. vs Ruud C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1522.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Opelka R. vs Alcaraz C." tvg-name="02:30 ATP - US OPEN : Opelka R. vs Alcaraz C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="ATP - US OPEN - Opelka R. vs Alcaraz C." tvg-name="02:30 ATP - US OPEN : Opelka R. vs Alcaraz C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Atp - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1521.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Jeanjean L. vs Hon P." tvg-name="17:00 WTA - US OPEN : Jeanjean L. vs Hon P. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1505.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Jeanjean L. vs Hon P." tvg-name="17:00 WTA - US OPEN : Jeanjean L. vs Hon P. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1525.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Krejcikova B. vs Mboko V." tvg-name="17:00 WTA - US OPEN : Krejcikova B. vs Mboko V. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1502.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Krejcikova B. vs Mboko V." tvg-name="17:00 WTA - US OPEN : Krejcikova B. vs Mboko V. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1522.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Kvitova P. vs Parry D." tvg-name="17:00 WTA - US OPEN : Kvitova P. vs Parry D. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1503.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Kvitova P. vs Parry D." tvg-name="17:00 WTA - US OPEN : Kvitova P. vs Parry D. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1523.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Pavlyuchenkova A. vs Yastremska D." tvg-name="17:00 WTA - US OPEN : Pavlyuchenkova A. vs Yastremska D. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1506.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Pavlyuchenkova A. vs Yastremska D." tvg-name="17:00 WTA - US OPEN : Pavlyuchenkova A. vs Yastremska D. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1526.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Putintseva Y. vs Cocciaretto E." tvg-name="17:00 WTA - US OPEN : Putintseva Y. vs Cocciaretto E. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1509.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Putintseva Y. vs Cocciaretto E." tvg-name="17:00 WTA - US OPEN : Putintseva Y. vs Cocciaretto E. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1529.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Samsonova L. vs Yuan Y." tvg-name="17:00 WTA - US OPEN : Samsonova L. vs Yuan Y. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1512.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Samsonova L. vs Yuan Y." tvg-name="17:00 WTA - US OPEN : Samsonova L. vs Yuan Y. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1532.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Keys M. vs Zarazua R." tvg-name="17:30 WTA - US OPEN : Keys M. vs Zarazua R. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Keys M. vs Zarazua R." tvg-name="17:30 WTA - US OPEN : Keys M. vs Zarazua R. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1521.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Kalinskaya A. vs Ngounoue C." tvg-name="18:30 WTA - US OPEN : Kalinskaya A. vs Ngounoue C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1512.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Kalinskaya A. vs Ngounoue C." tvg-name="18:30 WTA - US OPEN : Kalinskaya A. vs Ngounoue C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1532.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Mertens E. vs Ahn A." tvg-name="17:00 WTA - US OPEN : Mertens E. vs Ahn A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1505.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Mertens E. vs Ahn A." tvg-name="17:00 WTA - US OPEN : Mertens E. vs Ahn A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1525.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Rakhimova K. vs Garcia C." tvg-name="17:00 WTA - US OPEN : Rakhimova K. vs Garcia C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1506.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Rakhimova K. vs Garcia C." tvg-name="17:00 WTA - US OPEN : Rakhimova K. vs Garcia C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1526.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Sasnovich A. vs Jovic I." tvg-name="17:00 WTA - US OPEN : Sasnovich A. vs Jovic I. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1509.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Sasnovich A. vs Jovic I." tvg-name="17:00 WTA - US OPEN : Sasnovich A. vs Jovic I. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1529.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Bucsa C. vs Liu C." tvg-name="19:00 WTA - US OPEN : Bucsa C. vs Liu C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1513.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Bucsa C. vs Liu C." tvg-name="19:00 WTA - US OPEN : Bucsa C. vs Liu C. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1533.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Rybakina E. vs Pareja J." tvg-name="17:00 WTA - US OPEN : Rybakina E. vs Pareja J. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1517.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Rybakina E. vs Pareja J." tvg-name="17:00 WTA - US OPEN : Rybakina E. vs Pareja J. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1537.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Townsend T. vs Ruzic A." tvg-name="17:00 WTA - US OPEN : Townsend T. vs Ruzic A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1511.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Townsend T. vs Ruzic A." tvg-name="17:00 WTA - US OPEN : Townsend T. vs Ruzic A. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1531.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Kasatkina D. vs Ruse G." tvg-name="20:30 WTA - US OPEN : Kasatkina D. vs Ruse G. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1517.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Kasatkina D. vs Ruse G." tvg-name="20:30 WTA - US OPEN : Kasatkina D. vs Ruse G. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1537.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Jacquemot E. vs Bouzkova M." tvg-name="21:00 WTA - US OPEN : Jacquemot E. vs Bouzkova M. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1510.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Jacquemot E. vs Bouzkova M." tvg-name="21:00 WTA - US OPEN : Jacquemot E. vs Bouzkova M. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1530.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Li A. vs Sramkova R." tvg-name="21:00 WTA - US OPEN : Li A. vs Sramkova R. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1515.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Li A. vs Sramkova R." tvg-name="21:00 WTA - US OPEN : Li A. vs Sramkova R. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1535.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Sakkari M. vs Maria T." tvg-name="21:00 WTA - US OPEN : Sakkari M. vs Maria T. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1507.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Sakkari M. vs Maria T." tvg-name="21:00 WTA - US OPEN : Sakkari M. vs Maria T. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1527.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Volynets K. vs Sonmez Z." tvg-name="22:00 WTA - US OPEN : Volynets K. vs Sonmez Z. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1506.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Volynets K. vs Sonmez Z." tvg-name="22:00 WTA - US OPEN : Volynets K. vs Sonmez Z. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1526.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Bondar A. vs Svitolina E." tvg-name="22:30 WTA - US OPEN : Bondar A. vs Svitolina E. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1503.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Bondar A. vs Svitolina E." tvg-name="22:30 WTA - US OPEN : Bondar A. vs Svitolina E. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1523.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Frech M. vs Gibson T." tvg-name="22:30 WTA - US OPEN : Frech M. vs Gibson T. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1507.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Frech M. vs Gibson T." tvg-name="22:30 WTA - US OPEN : Frech M. vs Gibson T. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1527.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Semenistaja D. vs Stearns P." tvg-name="22:30 WTA - US OPEN : Semenistaja D. vs Stearns P. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1511.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Semenistaja D. vs Stearns P." tvg-name="22:30 WTA - US OPEN : Semenistaja D. vs Stearns P. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1531.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Williams V. vs Muchova K." tvg-name="01:00 WTA - US OPEN : Williams V. vs Muchova K. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1501.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Williams V. vs Muchova K." tvg-name="01:00 WTA - US OPEN : Williams V. vs Muchova K. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1521.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Parks A. vs Andreeva M." tvg-name="03:00 WTA - US OPEN : Parks A. vs Andreeva M. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1502.php
+
+#EXTINF:-1 tvg-id="WTA - US OPEN - Parks A. vs Andreeva M." tvg-name="03:00 WTA - US OPEN : Parks A. vs Andreeva M. - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis Wta - Us Open", Tennis Stream
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1522.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Tennis Channel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-40.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports+
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-36.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-46.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", ESPN USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-44.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Movistar Deportes Spain
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-436.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Movistar Deportes 2 Spain
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-438.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-111.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN3
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-113.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TSN4
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-114.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sports Tennis DE
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-884.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sky Sport Top Event DE
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-556.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TV4 Tennis
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-701.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sportsnet One
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-411.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sportsnet Ontario
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-406.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sportsnet West
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-407.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sportsnet East
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-408.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", TVA Sports
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-833.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Polsat Sport 1 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-47.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport TV2 Portugal
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-74.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 1 NL
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-393.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Cytavision Sports 5 Cyprus
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-915.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Ziggo Sport 4 NL
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-396.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN SPORTS Australia 1
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-491.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN SPORTS Australia 2
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-492.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 1 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-472.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Max Sport 3 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-474.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN Sports 1 Malaysia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-712.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", beIN Sports 2 Malaysia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-713.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sportv3 Brazil
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-80.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 2 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-102.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", ESPN2 Brasil
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-82.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", ESPN2 Argentina
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-150.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-101.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Sport Klub HD Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-453.php
+
+#EXTINF:-1 tvg-id="US Open Round 1 | Day 2 - US Open Round 1 | Day 2" tvg-name="17:00 US Open Round 1 | Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Tennis", Arena Tenis
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-612.php
+
+#EXTINF:-1 tvg-id="BSB | Round 7 | Cadwell Park Day 2 - BSB | Round 7 | Cadwell Park Day 2" tvg-name="14:00 BSB | Round 7 | Cadwell Park Day 2 - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TNT Sports 4 UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-34.php
+
+#EXTINF:-1 tvg-id="British Premiership Oxford Spires - Kings Lynn Stars - British Premiership Oxford Spires - Kings Lynn Stars" tvg-name="20:30 British Premiership Oxford Spires - Kings Lynn Stars - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Motorsport", TNT Sports 1 UK
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-31.php
+
+#EXTINF:-1 tvg-id="WWE Monday Night RAW - WWE Monday Night RAW" tvg-name="02:00 WWE Monday Night RAW - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wwe", Netflix PPV
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-1.php
+
+#EXTINF:-1 tvg-id="WWE Monday Night RAW - WWE Monday Night RAW" tvg-name="02:00 WWE Monday Night RAW - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wwe", SuperSport Variety 4
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-419.php
+
+#EXTINF:-1 tvg-id="WWE Monday Night RAW - WWE Monday Night RAW" tvg-name="02:00 WWE Monday Night RAW - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wwe", SuperSport Grandstand
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-412.php
+
+#EXTINF:-1 tvg-id="WWE Monday Night RAW - WWE Monday Night RAW" tvg-name="02:00 WWE Monday Night RAW - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Wwe", Supersports Action
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-420.php
+
+#EXTINF:-1 tvg-id="AmeriCup - Panama vs Venezuela" tvg-name="21:10 AmeriCup : Panama vs Venezuela - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", Sport Klub HD Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-453.php
+
+#EXTINF:-1 tvg-id="AmeriCup - Argentina vs Colombia" tvg-name="23:40 AmeriCup : Argentina vs Colombia - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", Sport Klub 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-101.php
+
+#EXTINF:-1 tvg-id="AmeriCup - Argentina vs Colombia" tvg-name="23:40 AmeriCup : Argentina vs Colombia - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", ESPN4 Brasil
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-85.php
+
+#EXTINF:-1 tvg-id="WNBA - New York Liberty W vs Connecticut Sun W" tvg-name="01:00 WNBA : New York Liberty W vs Connecticut Sun W - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", NBCS Boston USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-754.php
+
+#EXTINF:-1 tvg-id="WNBA - New York Liberty W vs Connecticut Sun W" tvg-name="01:00 WNBA : New York Liberty W vs Connecticut Sun W - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", MY9TV USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-654.php
+
+#EXTINF:-1 tvg-id="WNBA - Chicago Sky W vs Las Vegas Aces W" tvg-name="02:00 WNBA : Chicago Sky W vs Las Vegas Aces W - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", TSN5
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-115.php
+
+#EXTINF:-1 tvg-id="WNBA - Chicago Sky W vs Las Vegas Aces W" tvg-name="02:00 WNBA : Chicago Sky W vs Las Vegas Aces W - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", NBA TV USA
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-404.php
+
+#EXTINF:-1 tvg-id="WNBA - Chicago Sky W vs Las Vegas Aces W" tvg-name="02:00 WNBA : Chicago Sky W vs Las Vegas Aces W - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", Sport 5 Live Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-146.php
+
+#EXTINF:-1 tvg-id="AmeriCup - Dominican Republic vs Nicaragua" tvg-name="02:40 AmeriCup : Dominican Republic vs Nicaragua - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", Sport Klub 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-101.php
+
+#EXTINF:-1 tvg-id="AmeriCup - Canada vs Puerto Rico" tvg-name="05:10 AmeriCup : Canada vs Puerto Rico - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Basket", Sport Klub 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-101.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Dominican Republic vs. Mexico" tvg-name="11:00 FIVB World Championship Women : Dominican Republic vs. Mexico - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Polsat Sport 2 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-50.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Dominican Republic vs. Mexico" tvg-name="11:00 FIVB World Championship Women : Dominican Republic vs. Mexico - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport Klub 3 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-103.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Dominican Republic vs. Mexico" tvg-name="11:00 FIVB World Championship Women : Dominican Republic vs. Mexico - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport 3 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-142.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Canada vs. Spain" tvg-name="11:00 FIVB World Championship Women : Canada vs. Spain - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Polsat Sport Fight Poland HD
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-13.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Canada vs. Spain" tvg-name="11:00 FIVB World Championship Women : Canada vs. Spain - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport Klub 2 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-102.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Canada vs. Spain" tvg-name="11:00 FIVB World Championship Women : Canada vs. Spain - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport 2 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-141.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Japan vs. Ukraine" tvg-name="12:00 FIVB World Championship Women : Japan vs. Ukraine - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Polsat Sport 3 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-129.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Japan vs. Ukraine" tvg-name="12:00 FIVB World Championship Women : Japan vs. Ukraine - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Arena 1 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-134.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Japan vs. Ukraine" tvg-name="12:00 FIVB World Championship Women : Japan vs. Ukraine - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", RTVS Sport Slovakia HD
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-14.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Japan vs. Ukraine" tvg-name="12:00 FIVB World Championship Women : Japan vs. Ukraine - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Max Sport 1 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-472.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Japan vs. Ukraine" tvg-name="12:00 FIVB World Championship Women : Japan vs. Ukraine - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport Klub 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-101.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Japan vs. Ukraine" tvg-name="12:00 FIVB World Championship Women : Japan vs. Ukraine - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport 4 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-143.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Germany vs. Vietnam" tvg-name="12:00 FIVB World Championship Women : Germany vs. Vietnam - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Polsat Sport 1 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-47.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Germany vs. Vietnam" tvg-name="12:00 FIVB World Championship Women : Germany vs. Vietnam - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport Klub HD Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-453.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Germany vs. Vietnam" tvg-name="12:00 FIVB World Championship Women : Germany vs. Vietnam - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport 1 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-140.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Turkiye vs. Bulgaria" tvg-name="14:30 FIVB World Championship Women : Turkiye vs. Bulgaria - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Polsat Sport 2 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-50.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Turkiye vs. Bulgaria" tvg-name="14:30 FIVB World Championship Women : Turkiye vs. Bulgaria - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", RTVS Sport Slovakia HD
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-14.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Turkiye vs. Bulgaria" tvg-name="14:30 FIVB World Championship Women : Turkiye vs. Bulgaria - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", CT Sport Czech HD
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-15.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Turkiye vs. Bulgaria" tvg-name="14:30 FIVB World Championship Women : Turkiye vs. Bulgaria - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Max Sport 2 Bulgaria
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-473.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Turkiye vs. Bulgaria" tvg-name="14:30 FIVB World Championship Women : Turkiye vs. Bulgaria - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport Klub 2 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-102.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Turkiye vs. Bulgaria" tvg-name="14:30 FIVB World Championship Women : Turkiye vs. Bulgaria - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport 2 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-141.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - China vs. Colombia" tvg-name="14:30 FIVB World Championship Women : China vs. Colombia - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Polsat Sport 3 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-129.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - China vs. Colombia" tvg-name="14:30 FIVB World Championship Women : China vs. Colombia - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport Klub 3 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-103.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - China vs. Colombia" tvg-name="14:30 FIVB World Championship Women : China vs. Colombia - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport 3 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-142.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Serbia vs. Cameroon" tvg-name="15:30 FIVB World Championship Women : Serbia vs. Cameroon - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Polsat Sport Fight Poland HD
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-13.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Serbia vs. Cameroon" tvg-name="15:30 FIVB World Championship Women : Serbia vs. Cameroon - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Arena 1 Premium Serbia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-134.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Serbia vs. Cameroon" tvg-name="15:30 FIVB World Championship Women : Serbia vs. Cameroon - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport Klub HD Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-453.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Serbia vs. Cameroon" tvg-name="15:30 FIVB World Championship Women : Serbia vs. Cameroon - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport 1 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-140.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Poland vs. Kenya" tvg-name="15:30 FIVB World Championship Women : Poland vs. Kenya - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Polsat Sport 1 Poland
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-47.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Poland vs. Kenya" tvg-name="15:30 FIVB World Championship Women : Poland vs. Kenya - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport Klub 1 Croatia
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-101.php
+
+#EXTINF:-1 tvg-id="FIVB World Championship Women - Poland vs. Kenya" tvg-name="15:30 FIVB World Championship Women : Poland vs. Kenya - 25/08/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallavolo", Sport 4 Israel
+https://segment-lwo2.onrender.com/proxy/hls/manifest.m3u8?api_password=gf4&d=https://thedaddy.click/stream/stream-143.php
+
